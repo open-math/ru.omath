@@ -1,0 +1,8 @@
+name: Петр Радько
+displayName: CMTV
+slogan: Гениями не рождаются, ими становятся!
+
+links:
+    YouTube: https://www.youtube.com/c/CMTV_official
+    ВКонтакте: https://vk.com/math.head
+    Steam: https://steamcommunity.com/id/cmtv_official/

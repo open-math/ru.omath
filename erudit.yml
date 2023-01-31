@@ -1,0 +1,36 @@
+url: https://omath.ru
+
+language: ru
+
+links:
+    src:
+        label: Исходный код
+        link: https://github.com/CMTV
+    community:
+        label: Сообщество
+        link: https://vk.com/math.head
+    donate:
+        label: Поддержать проект
+        link: https://boosty.to/
+
+books:
+    # Об учебнике: about
+
+    # Основы математики:
+    #     Интуитивные понятия: intuition
+    #     Основы математической логики: base-logic
+    #     Теория множеств: set-theory
+
+    Базовая математика:
+        Комбинаторика: combinatorics
+        # Тригонометрия: trigonometry
+
+    # Высшая математика:
+    #     Теория пределов: limits
+    #     Дифференциальное исчисление: derivatives
+
+    Говна кусок: test-book
+
+    # Современная математика:
+    #     Топология: topology
+    #     Нестандартный анализ: unusual-calculus
