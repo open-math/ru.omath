@@ -1,0 +1,94 @@
+<!DOCTYPE html><!--
+
+
+███████╗██████╗ ██╗   ██╗██████╗ ██╗████████╗
+██╔════╝██╔══██╗██║   ██║██╔══██╗██║╚══██╔══╝
+█████╗  ██████╔╝██║   ██║██║  ██║██║   ██║   
+██╔══╝  ██╔══██╗██║   ██║██║  ██║██║   ██║   
+███████╗██║  ██║╚██████╔╝██████╔╝██║   ██║   
+╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝
+
+
+--><html lang="ru" data-layout="topic" data-topic="combinatorics/category1/topic3"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Erudit 1.0.4"><meta name="build-time" content="1675172042187"><title>Заголовок темы номер 0 | Конспект | Комбинаторика на OMath</title><!--link(rel="icon", type="image/svg+xml", href="/site/graphics/favicons/favicon.svg")--><link rel="icon" type="image/png" href="/site/graphics/favicons/favicon2.png"><!-- PhotoSwipe--><script src="/site/vendor/photoswipe/photoswipe.umd.min.js"></script><script src="/site/vendor/photoswipe/photoswipe-lightbox.umd.min.js"> </script><script>var PhotoSwipeLang = {
+    closeTitle:         'Закрыть',
+    zoomTitle:          'Масштаб',
+    arrowPrevTitle:     'Назад',
+    arrowNextTitle:     'Дальше',
+    errorMsg:           'Не получилось загрузить изображение!'
+}
+</script><link href="/site/vendor/photoswipe/photoswipe.css" rel="stylesheet"><!-- Katex--><link href="/site/vendor/katex/katex.min.css" rel="stylesheet"><!-- Icons--><link rel="stylesheet" href="/site/fonts/icons/style.css"><!-- Global Style--><link href="/site/styles/global.css" rel="stylesheet"><!-- Global Script--><script src="/site/scripts/global.js"></script><!-- Page Style--><link href="/site/styles/pages/topic.css" rel="stylesheet"><!-- Page Script--><script src="/site/scripts/pages/topic.js"></script></head><body><script>OMath.setTheme = (theme) =>
+{
+    let actualTheme = theme;
+
+    if (actualTheme === 'auto')
+    {
+        let preferDark = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+        let preferTheme = preferDark ? 'dark' : 'light';
+
+        actualTheme = preferTheme;
+    }
+
+    document.documentElement.dataset.theme = theme === 'auto' ? theme + '-' + actualTheme : actualTheme;
+    document.querySelector('meta[name="color-scheme"]').setAttribute('content', actualTheme);
+    localStorage.setItem('theme', theme);
+}
+
+OMath.cycleTheme = () =>
+{
+    let themes = ['auto', 'light', 'dark'];
+    let theme = localStorage.getItem('theme');
+
+    let currentIndex = themes.indexOf(theme);
+    if (currentIndex === -1)
+        currentIndex++;
+
+    if (currentIndex < themes.length - 1)
+        currentIndex++;
+    else
+        currentIndex = 0;
+
+    OMath.setTheme(themes[currentIndex]);
+}
+
+(() =>
+{
+    let OMath = window.OMath;
+
+    let tag = document.createElement('meta');
+        tag.setAttribute('name', 'color-scheme');
+        tag.setAttribute('content', '');
+    
+    document.head.appendChild(tag);
+
+    let updateTheme = () =>
+    {
+        let theme = localStorage.getItem('theme');
+
+        if (theme === null || theme === 'null')
+            theme = 'auto';
+    
+        OMath.setTheme(theme);
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => updateTheme());
+    updateTheme();
+})();</script><aside class="major" data-pane="toc"><div class="full"><div class="siteInfo"><a class="logo" href="/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 136">
+    <defs>
+        <linearGradient id="logotype-gradient">
+            <stop offset="0%" stop-color="#0aa2f4" />
+            <stop offset="100%" stop-color="#1976d7" />
+        </linearGradient>
+    </defs>
+    <circle cx="68" cy="68" r="67.5" fill="url(#logotype-gradient)" />
+    <path class="cut" d="M68.4.5C40.3 10 20 36.6 20 68s20.3 58 48.4 67.5c28.2-9.5 48.4-36.1 48.4-67.5S96.6 10 68.4.5zm30.4 92.9c-.1.2-.4.4-.8.5-.4.1-.9.2-1.6.3-.6.1-1.5.1-2.5.1s-1.8 0-2.4-.1c-.6-.1-1.2-.2-1.5-.3-.4-.1-.6-.3-.8-.5-.2-.2-.2-.5-.2-.7V49.9h-.1L73.6 92.6c-.1.4-.3.6-.5.9-.2.2-.6.4-1 .5-.4.1-1 .2-1.6.3-.6 0-1.4.1-2.4.1-.9 0-1.7 0-2.4-.1-.6-.1-1.2-.2-1.6-.3-.4-.1-.8-.3-1-.5-.2-.2-.4-.5-.5-.8L48 49.9h-.1v42.7c0 .3-.1.5-.2.7-.1.2-.4.4-.8.5-.4.1-.9.2-1.6.3-.6.1-1.5.1-2.5.1s-1.8 0-2.4-.1c-.6-.1-1.2-.2-1.6-.3-.4-.1-.7-.3-.8-.5-.1-.2-.2-.5-.2-.7V45.9c0-1.4.4-2.4 1.1-3.2.7-.7 1.7-1.1 2.9-1.1h7c1.2 0 2.3.1 3.2.3.9.2 1.7.5 2.3 1 .6.5 1.2 1.1 1.6 1.9.4.8.8 1.7 1.1 2.9L68.4 79h.2l11.8-31.2c.4-1.1.7-2.1 1.2-2.9.4-.8.9-1.4 1.5-1.9s1.2-.8 2-1c.8-.2 1.6-.3 2.6-.3h7.2c.7 0 1.4.1 1.9.3.5.2 1 .5 1.3.8.3.4.6.8.8 1.3.2.5.3 1.1.3 1.8v46.8c-.2.2-.3.5-.4.7z"/>
+</svg></a><div class="title"><a href="/">Математика</a></div><div class="slogan">Понятно и подробно</div></div><div class="paneSwitcher"><div class="inner"><button title="Оглавление" data-target="toc"><div class="inner"><i class="i-sitemap"></i></div></button><button title="Страницы" data-target="pages"><div class="inner"><i class="i-file-lines"></i></div></button><button title="Поиск" data-target="search"><div class="inner"><i class="i-magnifying-glass"></i></div></button><button title="Язык" data-target="language"><div class="inner"><i class="i-globe"></i></div></button><button title="Другое" data-target="other"><div class="inner"><i class="i-menu-ellipsis-ver"></i></div></button><div class="slider"></div></div></div><div class="panes"><div class="pane" data-pane="toc"><div class="inner"><div class="viewContainer" data-view="book"><div class="view" data-view="global"><div class="inner"><div class="tocTree"><div class="tocGroup"><div class="title">Базовая математика</div><div class="tocGroupBody"><div class="tocItem" data-current data-id="combinatorics"><a><span class="figure"><i class="i-book"></i></span><span class="label">Комбинаторика</span></a></div></div></div><div class="tocGroup"><div class="tocGroupBody"><div class="tocItem" data-id="test-book"><a><span class="figure"><i class="i-book"></i></span><span class="label">Говна кусок</span></a></div></div></div></div></div></div><div class="view loading" data-view="loading"><i class="i-omath"></i></div><div class="view" data-view="book"><div class="inner"><div class="bookTitle">Комбинаторика</div><div class="controls"><div class="navButtons"><div class="back" title="Назад"><i class="i-arrow-left"></i></div><a class="home" title="Об учебнике" href="google.com"><i class="i-house"></i></a></div><div class="filter"><div class="label">Показать:</div><div class="buttons"><div class="article" title="Статья" data-active><i class="i-file-lines"></i></div><div class="summary" title="Конспект"><i class="i-topic-summary"></i></div><div class="practicum" title="Практикум" data-active><i class="i-topic-practicum"></i></div></div></div></div><div class="bookToc" data-book-id="combinatorics" data-current=""><div class="tocTree"><div class="tocGroup"><div class="title">Основы</div><div class="tocGroupBody"><div class="tocItem" data-id="combinatorics/preface"><a href="https://omath.ru/combinatorics/preface/@article"><span class="figure"><i class="i-topic-many"></i></span><span class="label">Что такое комбираторика?</span></a></div></div></div><div class="tocGroup"><div class="tocGroupBody"><div class="tocSection"><div class="tocItem"><a><span class="figure"><i class="i-folder-open"></i></span><span class="label">Зосик</span></a></div><div class="tocSectionBody"><div class="tocSection"><div class="tocItem tocLevel-1"><a><span class="figure"><i class="i-folder-open"></i></span><span class="label">Категория 1</span></a></div><div class="tocSectionBody"><div class="tocItem tocLevel-2" data-id="combinatorics/category1/topic1"><a href="https://omath.ru/combinatorics/category1/topic1/@article"><span class="figure"><i class="i-file-lines"></i></span><span class="label">Тема 1</span></a></div><div class="tocItem tocLevel-2" data-id="combinatorics/category1/topic2"><a href="https://omath.ru/combinatorics/category1/topic2/@summary"><span class="figure"><i class="i-topic-many"></i></span><span class="label">Тема 2</span></a></div></div></div></div></div></div></div><div class="tocGroup"><div class="title">Базовые понятия</div><div class="tocGroupBody"><div class="tocSection"><div class="tocItem"><a><span class="figure"><i class="i-folder-open"></i></span><span class="label">МегаЧмноня</span></a></div><div class="tocSectionBody"><div class="tocSection"><div class="tocItem tocLevel-1"><a><span class="figure"><i class="i-folder-open"></i></span><span class="label">Лолкек</span></a></div><div class="tocSectionBody"><div class="tocItem tocLevel-2" data-id="combinatorics/category1/topic3"><a href="https://omath.ru/combinatorics/category1/topic3/@summary"><span class="figure"><i class="i-topic-summary"></i></span><span class="label">Частные интегралы</span></a></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="pane" data-pane="pages"><div class="inner"><div class="listItems"><a class="listSimpleItem" data-page="home" href="/"><div class="figure"><i class="i-house"></i></div><div class="label">Главная</div></a><a class="listSimpleItem" data-page="contributors" href="/"><div class="figure"><i class="i-users"></i></div><div class="label">Участники</div></a></div></div></div><div class="pane" data-pane="search"><div class="inner"></div></div><div class="pane" data-pane="language"><div class="inner"></div></div><div class="pane" data-pane="other"><div class="inner"><div class="listItems"><a class="listSimpleItem src" href="https://github.com/CMTV" target="_blank"><div class="figure"><i class="i-code"></i></div><div class="label">Исходный код</div></a><a class="listSimpleItem community" href="https://vk.com/math.head" target="_blank"><div class="figure"><i class="i-comments"></i></div><div class="label">Сообщество</div></a><a class="listSimpleItem donate" href="https://boosty.to/" target="_blank"><div class="figure"><i class="i-donate"></i></div><div class="label">Поддержать проект</div></a><button class="listSimpleItem" id="themeSwitcher" onclick="OMath.cycleTheme()"><div class="figure themeIcon"><i class="i-sun"></i><i class="i-moon"></i><i class="i-sun-and-moon"></i></div><div class="label">Тема:</div><div class="themeName"><div class="auto">Авто</div><div class="light">Светлая</div><div class="dark">Темная</div></div></button></div></div></div></div></div><div class="mini"><a href="/" title="На главную"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 136">
+    <defs>
+        <linearGradient id="logotype-gradient">
+            <stop offset="0%" stop-color="#0aa2f4" />
+            <stop offset="100%" stop-color="#1976d7" />
+        </linearGradient>
+    </defs>
+    <circle cx="68" cy="68" r="67.5" fill="url(#logotype-gradient)" />
+    <path class="cut" d="M68.4.5C40.3 10 20 36.6 20 68s20.3 58 48.4 67.5c28.2-9.5 48.4-36.1 48.4-67.5S96.6 10 68.4.5zm30.4 92.9c-.1.2-.4.4-.8.5-.4.1-.9.2-1.6.3-.6.1-1.5.1-2.5.1s-1.8 0-2.4-.1c-.6-.1-1.2-.2-1.5-.3-.4-.1-.6-.3-.8-.5-.2-.2-.2-.5-.2-.7V49.9h-.1L73.6 92.6c-.1.4-.3.6-.5.9-.2.2-.6.4-1 .5-.4.1-1 .2-1.6.3-.6 0-1.4.1-2.4.1-.9 0-1.7 0-2.4-.1-.6-.1-1.2-.2-1.6-.3-.4-.1-.8-.3-1-.5-.2-.2-.4-.5-.5-.8L48 49.9h-.1v42.7c0 .3-.1.5-.2.7-.1.2-.4.4-.8.5-.4.1-.9.2-1.6.3-.6.1-1.5.1-2.5.1s-1.8 0-2.4-.1c-.6-.1-1.2-.2-1.6-.3-.4-.1-.7-.3-.8-.5-.1-.2-.2-.5-.2-.7V45.9c0-1.4.4-2.4 1.1-3.2.7-.7 1.7-1.1 2.9-1.1h7c1.2 0 2.3.1 3.2.3.9.2 1.7.5 2.3 1 .6.5 1.2 1.1 1.6 1.9.4.8.8 1.7 1.1 2.9L68.4 79h.2l11.8-31.2c.4-1.1.7-2.1 1.2-2.9.4-.8.9-1.4 1.5-1.9s1.2-.8 2-1c.8-.2 1.6-.3 2.6-.3h7.2c.7 0 1.4.1 1.9.3.5.2 1 .5 1.3.8.3.4.6.8.8 1.3.2.5.3 1.1.3 1.8v46.8c-.2.2-.3.5-.4.7z"/>
+</svg></a><button class="menu" title="Меню" data-target="toc"><i class="i-menu"></i></button><button title="Оглавление" data-target="toc"><i class="i-sitemap"></i></button><button title="Страницы" data-target="pages"><i class="i-file-lines"></i></button><button title="Поиск" data-target="search"><i class="i-magnifying-glass"></i></button><button title="Язык" data-target="language"><i class="i-globe"></i></button><button title="Другое" data-target="other"><i class="i-menu-ellipsis-ver"></i></button></div></aside><aside class="minor"><div class="full"><div class="typeSwitcher"><a href="/combinatorics/category1/topic2/@summary" title="Предыдущая тема"><div class="inner"><i class="i-arrow-left"></i></div></a><a title="Статья" data-disabled><div class="inner"><i class="i-file-lines"></i></div></a><a title="Конспект" data-current><div class="inner"><i class="i-topic-summary"></i></div></a><a title="Практикум" data-disabled><div class="inner"><i class="i-topic-practicum"></i></div></a><a title="Следующая тема" data-disabled><div class="inner"><i class="i-arrow-right"></i></div></a></div><div class="topicToc"><div class="inner"><div class="tocTree"><div class="tocItem"><a href="#ah:Bolshe-tak-nelzya"><span class="figure"><i class="i-hashtag"></i></span><span class="label">Больше так нельзя!</span></a></div><div class="tocItem tocLevel-1"><a href="#ah:a-mozhet-bit-i-mozhno-myFace"><span class="figure"><i class="i-hashtag"></i></span><span class="label">А может быть и можно {: myFace }</span></a></div><div class="tocItem tocLevel-1"><a href="#ah:Poshel-ti"><span class="figure"><i class="i-hashtag"></i></span><span class="label">Пошел ты</span></a></div><div class="tocItem tocLevel-2"><a href="#ah:a-menya-zovut-Aboba"><span class="figure"><i class="i-hashtag"></i></span><span class="label">А меня зовут Aboba!</span></a></div><div class="tocItem"><a href="#ah:Privet-mir"><span class="figure"><i class="i-hashtag"></i></span><span class="label">Привет мир!</span></a></div></div></div></div></div><div class="mini"><a title="Статья" data-disabled><i class="i-file-lines"></i></a><a title="Конспект" data-current><i class="i-topic-summary"></i></a><a title="Практикум" data-disabled><i class="i-topic-practicum"></i></a></div></aside><main><article><div class="topicInfo"><div class="type" title="Конспект"><i class="i-topic-summary"></i></div><h1 class="title">Заголовок темы номер 0</h1></div><p>Привет мир, мазафака!</p><h2 id="ah:Bolshe-tak-nelzya">Больше так нельзя!<a class="hAnchor" href="#ah:Bolshe-tak-nelzya"><i class="i-link"></i></a></h2><p>Пора перейти от <a href="/contributors/CMTV/undefined#h:myH" data-preview="/site/uniques/@contributor/CMTV/h_myH.html">ПРИВЕТ</a> чему-нибудь весомому!
+Лошадиных сил много, а ума мало!?</p><ol start="5"><li><div class="liContent"><p>Первый</p></div></li><li><div class="liContent"><p>Закон</p></div></li><li><div class="liContent"><p>Ома!</p></div></li></ol><h3 id="ah:a-mozhet-bit-i-mozhno-myFace">А может быть и можно {: myFace }<a class="hAnchor" href="#ah:a-mozhet-bit-i-mozhno-myFace"><i class="i-link"></i></a></h3><h3 id="ah:Poshel-ti">Пошел ты<a class="hAnchor" href="#ah:Poshel-ti"><i class="i-link"></i></a></h3><h4 id="ah:a-menya-zovut-Aboba">А меня зовут Aboba!<a class="hAnchor" href="#ah:a-menya-zovut-Aboba"><i class="i-link"></i></a></h4><h1 id="ah:Privet-mir">Привет мир!<a class="hAnchor" href="#ah:Privet-mir"><i class="i-link"></i></a></h1></article><div class="expand"></div><div class="bottomSticky"><div class="asideControls"><button class="majorOpen"><i class="i-aside-open" style="transform: scale(-1, 1)"></i></button><button class="minorOpen"><i class="i-aside-open"></i></button></div><section id="preview"><div class="display"><div class="border"></div><div class="screen loading" data-state><div class="inner"><i class="i-omath"></i></div></div><div class="screen error" data-state><div class="inner"><i class="i-warning"></i></div></div></div><footer><div class="title">Превью</div><div class="controls"><a class="button goto" title="Источник" target="_blank" href=""><i class="i-up-right-from-square"></i></a><div class="button back" title="Назад"><i class="i-arrow-left"></i></div><div class="button mini" data-label-collapse="Свернуть" data-label-expand="Развернуть"><i class="i-compress"></i><i class="i-expand"></i></div><div class="button exit" title="Закрыть"><i class="i-xmark"></i></div></div></footer></section></div></main></body></html>
