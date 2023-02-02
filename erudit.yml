@@ -14,6 +14,10 @@ links:
         link: https://boosty.to/
 
 books:
+    Основы математики:
+        Язык математики: lang-of-math
+        Основы логики: base-logic
+
     Базовая математика:
         Алгебра: algebra
         Комбинаторика: combinatorics
