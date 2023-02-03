@@ -1,0 +1,1 @@
+(()=>{var e=class{static get(){return window.OMath}};window.addEventListener("load",()=>{let i=e.get().asideToggler;i.asides.minor.querySelector(":scope > .mini > button.contribution").addEventListener("click",()=>{i.toggleAside(i.asides.minor,!0)})});})();
