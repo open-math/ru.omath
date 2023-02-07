@@ -14,6 +14,8 @@ links:
         link: https://boosty.to/
 
 books:
+    Основные понятия: basics
+
     Основы математики:
         Язык математики: lang-of-math
         Основы логики: base-logic
@@ -21,5 +23,11 @@ books:
     Базовая математика:
         Алгебра: algebra
         Комбинаторика: combinatorics
+
+    Экзамены:
+        Общее по эказменам: exam/common
+        ОГЭ: exam/oge
+        ЕГЭ. База: exam/ege-base
+        ЕГЭ. Профиль: exam/ege
 
     Занимательное: other
