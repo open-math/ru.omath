@@ -22,10 +22,9 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
+          cd engine
           npm i
           npm i -g ts-node
-
-          cd engine
           ts-node src/cli.ts build -p ..
       
       - name: Deploy 🚀
