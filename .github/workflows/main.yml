@@ -12,15 +12,24 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@main
 
+      - name: Engine
+        uses: actions/checkout@main
+        with:
+          repository: cmtv/erudit
+          path: 'engine'
+
       - uses: actions/setup-node@main
 
       - name: Install and Build 🔧
         run: |
-          npm i erudit -g
-          erudit build
+          npm i
+          npm i -g ts-node
+
+          cd engine
+          ts-node src/cli.ts build -p ..
       
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.7
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: .site
