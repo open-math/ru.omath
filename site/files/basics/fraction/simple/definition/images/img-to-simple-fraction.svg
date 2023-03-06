@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" width="800" viewBox="0 0 431.5 102.94">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        opacity: .4;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #62983d;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #e0a900;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #668bb3;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-6" d="M5.66,28.22C2.05,35.24,0,43.2,0,51.64s2.05,16.4,5.66,23.42l40.57-23.42L5.66,28.22Z"/>
+    <path class="cls-6" d="M53.93,47.19l40.57-23.42C85.78,10.31,70.95,1.18,53.93,.34V47.19Z"/>
+    <path class="cls-3" d="M97.07,75.06c3.61-7.03,5.66-14.98,5.66-23.42s-2.05-16.4-5.66-23.42l-40.57,23.42,40.57,23.42Z"/>
+    <path class="cls-3" d="M48.79,47.19V.34C31.77,1.18,16.94,10.31,8.23,23.77l40.57,23.42Z"/>
+    <path class="cls-6" d="M53.93,56.09v46.85c17.02-.84,31.85-9.97,40.57-23.43l-40.57-23.42Z"/>
+    <path class="cls-3" d="M48.79,56.09L8.23,79.51c8.71,13.46,23.55,22.59,40.57,23.43V56.09Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="197.98" width="48.31" height="50.08"/>
+    <rect class="cls-4" x="143.5" width="49.34" height="50.08"/>
+    <rect class="cls-1" x="143.5" y="55.22" width="49.34" height="47.57"/>
+    <rect class="cls-4" x="197.98" y="55.22" width="48.31" height="47.57"/>
+  </g>
+  <rect class="cls-5" x="288.22" width="20.47" height="102.34"/>
+  <rect class="cls-2" x="318.92" width="20.47" height="102.34"/>
+  <rect class="cls-5" x="349.63" width="20.47" height="102.34"/>
+  <rect class="cls-2" x="380.33" width="20.47" height="102.34"/>
+  <rect class="cls-2" x="411.03" width="20.47" height="102.34"/>
+</svg>
