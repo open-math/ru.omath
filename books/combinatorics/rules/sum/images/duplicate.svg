@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 364 276" width="1092" height="828">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #999;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-4 {
+        opacity: .5;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 0 0 12.23 12.23;
+      }
+
+      .cls-5 {
+        letter-spacing: .02em;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #999;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: ArialMT, Arial;
+        font-size: 12px;
+      }
+
+      .cls-9 {
+        fill: #29abe2;
+      }
+
+      .cls-8 {
+        fill: #cb0000;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: .01em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <rect class="cls-9" x="325" y="64" width="30" height="30"/>
+      <rect class="cls-9" x="245" y="64" width="30" height="30"/>
+      <rect class="cls-9" x="285" y="64" width="30" height="30"/>
+      <rect class="cls-6" x="285" y="24" width="30" height="30"/>
+      <rect class="cls-6" x="245" y="24" width="30" height="30"/>
+      <rect class="cls-6" x="325" y="24" width="30" height="30"/>
+    </g>
+    <text class="cls-7" transform="translate(245.25 14.11)"><tspan x="0" y="0">К</tspan><tspan class="cls-11" x="6.99" y="0">у</tspan><tspan x="13.12" y="0">бики</tspan></text>
+  </g>
+  <g>
+    <g>
+      <circle class="cls-9" cx="300" cy="195" r="15"/>
+      <circle class="cls-9" cx="260" cy="195" r="15"/>
+      <circle class="cls-9" cx="260" cy="155" r="15"/>
+      <circle class="cls-9" cx="300" cy="155" r="15"/>
+      <circle class="cls-9" cx="340" cy="195" r="15"/>
+      <g class="cls-4">
+        <rect class="cls-9" x="325" y="220" width="30" height="30"/>
+      </g>
+      <g class="cls-4">
+        <rect class="cls-9" x="245" y="220" width="30" height="30"/>
+      </g>
+      <g class="cls-4">
+        <rect class="cls-9" x="285" y="220" width="30" height="30"/>
+      </g>
+    </g>
+    <text class="cls-7" transform="translate(245.08 130.31)"><tspan x="0" y="0">Синие иг</tspan><tspan class="cls-12" x="49.79" y="0">р</tspan><tspan x="56.33" y="0">ушки</tspan></text>
+    <text class="cls-8" transform="translate(244.72 269.08)"><tspan class="cls-5" x="0" y="0">Д</tspan><tspan class="cls-11" x="8.39" y="0">у</tspan><tspan class="cls-3" x="14.53" y="0">б</tspan><tspan x="20.86" y="0">ли</tspan><tspan class="cls-5" x="34.56" y="0">к</tspan><tspan class="cls-10" x="40.08" y="0">а</tspan><tspan x="46.49" y="0">т!</tspan></text>
+  </g>
+  <rect class="cls-9" x="51" y="35" width="30" height="30"/>
+  <rect class="cls-9" x="51" y="115" width="30" height="30"/>
+  <rect class="cls-9" x="51" y="75" width="30" height="30"/>
+  <rect class="cls-6" x="11" y="75" width="30" height="30"/>
+  <rect class="cls-6" x="11" y="35" width="30" height="30"/>
+  <rect class="cls-6" x="11" y="115" width="30" height="30"/>
+  <circle class="cls-9" cx="66" cy="210" r="15"/>
+  <circle class="cls-9" cx="26" cy="210" r="15"/>
+  <circle class="cls-9" cx="26" cy="170" r="15"/>
+  <circle class="cls-9" cx="66" cy="170" r="15"/>
+  <circle class="cls-9" cx="26" cy="250" r="15"/>
+  <g>
+    <line class="cls-1" x1="90.5" y1="89.5" x2="227.56" y2="79.17"/>
+    <polygon class="cls-6" points="226.21 85.53 236.5 78.5 225.27 73.1 226.21 85.53"/>
+  </g>
+  <g>
+    <line class="cls-1" x1="92.5" y1="89.5" x2="96.76" y2="93.73"/>
+    <line class="cls-2" x1="105.43" y1="102.34" x2="222.54" y2="218.64"/>
+    <line class="cls-1" x1="226.88" y1="222.95" x2="231.14" y2="227.18"/>
+    <polygon class="cls-6" points="225.45 230.32 237.5 233.5 234.23 221.47 225.45 230.32"/>
+  </g>
+</svg>
