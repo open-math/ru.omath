@@ -15,6 +15,9 @@
     <url><loc>https://omath.ru/combinatorics/preface/@article/</loc></url>
     <url><loc>https://omath.ru/combinatorics/preface/@summary/</loc></url>
     <url><loc>https://omath.ru/combinatorics/preface/@practicum/</loc></url>
+    <url><loc>https://omath.ru/combinatorics/rules/sum/@article/</loc></url>
+    <url><loc>https://omath.ru/combinatorics/rules/sum/@summary/</loc></url>
+    <url><loc>https://omath.ru/combinatorics/rules/sum/@practicum/</loc></url>
     <url><loc>https://omath.ru/lang-of-math/alphabet/@article/</loc></url>
     <url><loc>https://omath.ru/lang-of-math/expressions/@article/</loc></url>
     <url><loc>https://omath.ru/lang-of-math/langs/@article/</loc></url>
@@ -22,5 +25,15 @@
     <url><loc>https://omath.ru/other/division-by-zero/@article/</loc></url>
     <url><loc>https://omath.ru/@contributor/CMTV/</loc></url>
     <url><loc>https://omath.ru/@contributor/nagibin/</loc></url>
+    <url><loc>https://omath.ru/basics/@book/</loc></url>
+    <url><loc>https://omath.ru/lang-of-math/@book/</loc></url>
+    <url><loc>https://omath.ru/base-logic/@book/</loc></url>
+    <url><loc>https://omath.ru/algebra/@book/</loc></url>
+    <url><loc>https://omath.ru/combinatorics/@book/</loc></url>
+    <url><loc>https://omath.ru/exam/common/@book/</loc></url>
+    <url><loc>https://omath.ru/exam/oge/@book/</loc></url>
+    <url><loc>https://omath.ru/exam/ege-base/@book/</loc></url>
+    <url><loc>https://omath.ru/exam/ege/@book/</loc></url>
+    <url><loc>https://omath.ru/other/@book/</loc></url>
 
 </urlset>

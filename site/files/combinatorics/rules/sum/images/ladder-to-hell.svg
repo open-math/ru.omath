@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271.81 251.04" width="800">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #7766f8;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke-linejoin: round;
+      }
+
+      .cls-3, .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        stroke: #7766f8;
+        stroke-dasharray: 0 0 10.5 8;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 2.5px;
+      }
+
+      .cls-2, .cls-6 {
+        font-family: ArialMT, Arial;
+        font-size: 16px;
+        isolation: isolate;
+      }
+
+      .cls-7, .cls-6 {
+        fill: #1979e6;
+      }
+
+      .cls-5 {
+        stroke: #616161;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="m193.4,41.03c-37.53-30.13-91.72-27.18-125.75,6.85-34.03,34.03-36.98,88.22-6.85,125.75"/>
+  <path class="cls-4" d="m193.4,41.03c-18.62-4.55-38.26.95-51.81,14.5-13.55,13.55-19.05,33.19-14.5,51.81"/>
+  <path class="cls-5" d="m127.1,107.33h66.3"/>
+  <path class="cls-5" d="m127.1,107.33v66.3"/>
+  <path class="cls-5" d="m193.4,41.03v66.3"/>
+  <path class="cls-5" d="m60.8,173.63h66.3"/>
+  <path class="cls-5" d="m60.8,173.63v66.3"/>
+  <path class="cls-5" d="m193.4,41.03h66.3"/>
+  <path class="cls-1" d="m198.4,41.03c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <path class="cls-3" d="m198.4,41.03c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <text class="cls-2" transform="translate(197.16 31.41)"><tspan x="0" y="0">С9</tspan></text>
+  <path class="cls-7" d="m132.1,107.33c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <path class="cls-3" d="m132.1,107.33c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <text class="cls-6" transform="translate(131.16 97.41)"><tspan x="0" y="0">С8</tspan></text>
+  <path class="cls-7" d="m65.8,173.63c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <path class="cls-3" d="m65.8,173.63c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <text class="cls-6" transform="translate(65.16 163.41)"><tspan x="0" y="0">С7</tspan></text>
+</svg>
