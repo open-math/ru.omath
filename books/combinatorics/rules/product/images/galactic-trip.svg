@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 585.03 209.24" width="800">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        font-family: ArialMT, Arial;
+        font-size: 16px;
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #09f;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #aa42af;
+      }
+
+      .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-6, .cls-7 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-7 {
+        stroke: #a0a0a0;
+        stroke-width: 2.5px;
+      }
+
+      .cls-9, .cls-3 {
+        fill: #96f;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <path class="cls-7" d="m335.96,143.23c-19.42-44.63-59.67-76.77-107.49-85.84-47.82-9.07-97.04,6.1-131.46,40.51"/>
+  <path class="cls-7" d="m335.96,143.23c5.85-62.73-36.96-119.61-98.86-131.36s-122.57,25.52-140.09,86.03"/>
+  <path class="cls-7" d="m97.01,97.9c68.29,51.4,156.58,68.15,238.95,45.33"/>
+  <path class="cls-7" d="m335.96,143.23c13.53,31.99,44.31,53.3,79.02,54.71,34.71,1.41,67.11-17.34,83.19-48.13,16.08-30.79,12.95-68.1-8.04-95.77"/>
+  <path class="cls-7" d="m490.13,54.04c-66.09-10.86-130.64,26.49-154.17,89.19"/>
+  <path class="cls-7" d="m335.96,143.23c31.21,22.38,72.64,24.41,105.88,5.17s52.14-56.15,48.29-94.36"/>
+  <path class="cls-7" d="m335.96,143.23c58.77-14.61,112.21-45.53,154.17-89.19"/>
+  <path class="cls-4" d="m102.01,97.9c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <path class="cls-6" d="m102.01,97.9c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <text class="cls-1" transform="translate(7.05 128.32)"><tspan x="0" y="0">Мл</tspan><tspan class="cls-8" x="22.66" y="0">е</tspan><tspan x="31.03" y="0">чный путь</tspan></text>
+  <path class="cls-9" d="m340.96,143.23c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <path class="cls-6" d="m340.96,143.23c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <text class="cls-3" transform="translate(218.49 173.62)"><tspan x="0" y="0">Оме</tspan><tspan class="cls-10" x="32.34" y="0">г</tspan><tspan x="37.83" y="0">а Цен</tspan><tspan class="cls-11" x="80.74" y="0">т</tspan><tspan x="87.89" y="0">авра</tspan></text>
+  <path class="cls-5" d="m495.13,54.04c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <path class="cls-6" d="m495.13,54.04c0,2.76-2.24,5-5,5s-5-2.24-5-5,2.24-5,5-5,5,2.24,5,5Z"/>
+  <text class="cls-2" transform="translate(493.96 43.74)"><tspan x="0" y="0">Андром</tspan><tspan class="cls-10" x="57.64" y="0">е</tspan><tspan x="66.19" y="0">да</tspan></text>
+</svg>

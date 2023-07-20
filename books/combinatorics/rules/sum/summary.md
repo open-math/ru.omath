@@ -3,6 +3,8 @@
 
 <~ @article/d:rule-of-sum
 
+<~ @article/i:intersections
+
 <~ @article/i:check-intersections
 
 ## Примеры
