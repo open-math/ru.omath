@@ -291,6 +291,7 @@
     answer: |
         $14$
 
+{ #obedient-robot }
 @task
     title: Послушный робот
     statement: |
