@@ -1,0 +1,1 @@
+(()=>{window.addEventListener("load",()=>{document.querySelectorAll("body > main > article .wipBook .progress").forEach(e=>{e.querySelector(":scope .explain > .done").addEventListener("click",()=>{e.toggleAttribute("data-goals-open")})})});})();
