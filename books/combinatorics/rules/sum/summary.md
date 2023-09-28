@@ -1,17 +1,17 @@
 
 ---
 
-<~ @article/d:rule-of-sum
+<~ @article|d:rule-of-sum
 
-<~ @article/i:intersections
+<~ @article|i:intersections
 
-<~ @article/i:check-intersections
+<~ @article|i:check-intersections
 
 ## Примеры
 
-<~ @article/example:example1
+<~ @article|example:example1
 
-<~ @article/example:example2
+<~ @article|example:example2
 
 @example:
     title: Обманчивые детские игрушки

@@ -6,6 +6,10 @@ links:
     src:
         label: Исходный код
         link: https://github.com/CMTV
+    editor:
+        label: Редактор
+        link: https://editor.omath.net
+        icon: pen-nib
     community:
         label: Сообщество
         link: https://vk.com/math.head
@@ -14,7 +18,7 @@ links:
         link: https://boosty.to/
 
 books:
-    Основы математики: basics        
+    Основы математики: basics
 
     Базовая математика:
         Язык математики: lang-of-math

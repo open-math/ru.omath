@@ -41,9 +41,9 @@
         Заштрихуйте нужное количество частей.
 
     answer: |
-        { .w8 }
         @image
-            src: images/task-circles-answer.svg
+            src: assets/practicum/task-circles-answer.svg
+            width: 600px
 
 @task
     title: Расшифровываем круги
@@ -52,9 +52,9 @@
     statement: |
         Опишите словестно дроби, изображенные на рисунке:
 
-        { .w8 }
         @image
-            src: images/task-img-to-txt.svg
+            src: assets/practicum/task-img-to-txt.svg
+            width: 600px
     
     hint: |
         Для каждого рисунка посчитайте общее число частей и число закрашенных.
