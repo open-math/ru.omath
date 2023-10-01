@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_Слой_1" data-name="Слой 1" viewBox="0 0 205.5 156.3" width="800">
+  <defs>
+    <style>
+      .cls-1{font-family:ArialMT,Arial;font-size:18px;isolation:isolate;fill:#616161}.cls-4{fill:none;stroke:rgba(97,97,97,.8);stroke-linecap:round;stroke-linejoin:round;stroke-width:2.5px}
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(85.4 44)"><tspan x="0" y="0">3</tspan></text>
+  <path d="M111 21.2 89.7 69.7" class="cls-4"/>
+  <text class="cls-1" transform="translate(51.4 83)"><tspan x="0" y="0">1</tspan></text>
+  <path d="m89.6 69.7-56.8 41.9" class="cls-4"/>
+  <text class="cls-1" transform="translate(98.4 112)"><tspan x="0" y="0">5</tspan></text>
+  <path d="m89.6 69.7 2.8 59.6" class="cls-4"/>
+  <text class="cls-1" transform="translate(135.4 82)"><tspan x="0" y="0">8</tspan></text>
+  <path d="m89.6 69.7 83 34.4" class="cls-4"/>
+  <path fill="purple" d="M118 21.2a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+  <path fill="#616161" d="M96.6 69.7a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-56.8 41.9a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm59.6 17.7a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm80.2-25.2a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+</svg>

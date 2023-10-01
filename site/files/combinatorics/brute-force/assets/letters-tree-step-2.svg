@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_Слой_1" data-name="Слой 1" viewBox="0 0 478 226" width="800">
+  <defs>
+    <style>
+      .cls-1{font-family:ArialMT,Arial;font-size:20px;isolation:isolate;fill:#616161}.cls-3{fill:none;stroke:rgba(97,97,97,.8);stroke-linecap:round;stroke-linejoin:round;stroke-width:2.5px}
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(146 189)"><tspan x="0" y="0">У</tspan></text>
+  <path d="M244 210 86 125" class="cls-3"/>
+  <text class="cls-1" transform="translate(28 92)"><tspan x="0" y="0">Д</tspan></text>
+  <path d="M86 125 19 19" class="cls-3"/>
+  <text class="cls-1" transform="translate(98 75)"><tspan x="0" y="0">П</tspan></text>
+  <path d="M86 125 85 19" class="cls-3"/>
+  <text class="cls-1" transform="translate(222 169)"><tspan x="0" y="0">Д</tspan></text>
+  <path d="M244 210v-85" class="cls-3"/>
+  <text class="cls-1" transform="translate(197 86)"><tspan x="0" y="0">У</tspan></text>
+  <path d="M244 125 195 19" class="cls-3"/>
+  <text class="cls-1" transform="translate(278 83)"><tspan x="0" y="0">П</tspan></text>
+  <path d="m244 125 43-106" class="cls-3"/>
+  <text class="cls-1" transform="translate(328 189)"><tspan x="0" y="0">П</tspan></text>
+  <path d="m244 210 156-85" class="cls-3"/>
+  <text class="cls-1" transform="translate(379 77)"><tspan x="0" y="0">У</tspan></text>
+  <path d="m400 125 3-106" class="cls-3"/>
+  <text class="cls-1" transform="translate(443 82)"><tspan x="0" y="0">Д</tspan></text>
+  <path d="m400 125 56-106" class="cls-3"/>
+  <path d="M251 210a7 7 0 1 1-14 0 7 7 0 0 1 14 0ZM93 125a7 7 0 1 1-14 0 7 7 0 0 1 14 0ZM26 19a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm66 0a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm159 106a7 7 0 1 1-14 0 7 7 0 0 1 14 0ZM202 19a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm92 0a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm113 106a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm3-106a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm54 0a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" style="fill:#616161"/>
+</svg>
