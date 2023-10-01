@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_Слой_1" data-name="Слой 1" viewBox="0 0 920.7 123.8" width="800">
+  <defs>
+    <style>
+      .cls-2{fill:none;stroke-linejoin:round;stroke-width:2.5px}.cls-3{font-size:18px;isolation:isolate;font-family:ArialMT,Arial;fill:#616161}.cls-2{stroke:rgba(97,97,97,.8);stroke-linecap:round}
+    </style>
+  </defs>
+  <path fill="none" stroke="rgba(192,192,192,.8)" stroke-dasharray="0 0 10.5 8" stroke-linejoin="round" stroke-width="2.5" d="M-114.1 23.6h1822m-1822 75h1822"/>
+  <text class="cls-3" transform="translate(520.9 70)"><tspan x="0" y="0">3</tspan></text>
+  <path d="m537.5 23.6 1 75" class="cls-2"/>
+  <text class="cls-3" transform="translate(665.9 58)"><tspan x="0" y="0">4</tspan></text>
+  <path d="m537.5 23.6 235 75" class="cls-2"/>
+  <text class="cls-3" transform="translate(390.9 57)"><tspan x="0" y="0">2</tspan></text>
+  <path d="m537.5 23.6-229 75" class="cls-2"/>
+  <path fill="#616161" d="M544.5 23.6a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm1 75a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm234 0a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-464 0a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+  <text fill="#818181" font-family="ArialMT,Arial" font-size="38.8" transform="translate(14.3 72.8)"><tspan x="0" y="0">1ч</tspan></text>
+</svg>

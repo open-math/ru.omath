@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_Слой_1" data-name="Слой 1" viewBox="0 0 268.2 156.3" width="800">
+  <defs>
+    <style>
+      .cls-1{font-family:ArialMT,Arial;font-size:18px;isolation:isolate;fill:#616161}.cls-4{fill:none;stroke:rgba(97,97,97,.8);stroke-linecap:round;stroke-linejoin:round;stroke-width:2.5px}
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(148.1 44)"><tspan x="0" y="0">3</tspan></text>
+  <path d="m173.8 21.2-21.5 48.5" class="cls-4"/>
+  <text class="cls-1" transform="translate(114.1 83)"><tspan x="0" y="0">1</tspan></text>
+  <path d="m152.3 69.7-56.8 41.9" class="cls-4"/>
+  <text class="cls-1" transform="translate(161.1 112)"><tspan x="0" y="0">5</tspan></text>
+  <path d="m152.3 69.7 2.8 59.6" class="cls-4"/>
+  <text class="cls-1" transform="translate(198.1 82)"><tspan x="0" y="0">8</tspan></text>
+  <path d="m152.3 69.7 83 34.4" class="cls-4"/>
+  <text class="cls-1" transform="translate(53.1 105)"><tspan x="0" y="0">7</tspan></text>
+  <path d="m95.5 111.6-69.9 5.6" class="cls-4"/>
+  <path fill="purple" d="M180.8 21.2a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+  <path fill="#616161" d="M159.3 69.7a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-56.8 41.9a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm59.6 17.7a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm80.2-25.2a7 7 0 1 1-14 0 7 7 0 0 1 14 0ZM32.6 117.2a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+</svg>

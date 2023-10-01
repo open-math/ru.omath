@@ -5,7 +5,7 @@ language: ru
 links:
     src:
         label: Исходный код
-        link: https://github.com/CMTV
+        link: https://github.com/open-math
     editor:
         label: Редактор
         link: https://editor.omath.net
