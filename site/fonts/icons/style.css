@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Erudit-Icons';
-  src:  url('fonts/Erudit-Icons.eot?8sopaa');
-  src:  url('fonts/Erudit-Icons.eot?8sopaa#iefix') format('embedded-opentype'),
-    url('fonts/Erudit-Icons.ttf?8sopaa') format('truetype'),
-    url('fonts/Erudit-Icons.woff?8sopaa') format('woff'),
-    url('fonts/Erudit-Icons.svg?8sopaa#Erudit-Icons') format('svg');
+  src:  url('fonts/Erudit-Icons.eot?tb7tyt');
+  src:  url('fonts/Erudit-Icons.eot?tb7tyt#iefix') format('embedded-opentype'),
+    url('fonts/Erudit-Icons.ttf?tb7tyt') format('truetype'),
+    url('fonts/Erudit-Icons.woff?tb7tyt') format('woff'),
+    url('fonts/Erudit-Icons.svg?tb7tyt#Erudit-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.i-plus:before {
+  content: "\e928";
+}
 .i-graduation-cap:before {
   content: "\e927";
 }

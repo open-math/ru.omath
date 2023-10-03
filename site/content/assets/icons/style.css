@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'OMath-Content-Icons';
   src:
-    url('fonts/OMath-Content-Icons.ttf?3eomdc') format('truetype'),
-    url('fonts/OMath-Content-Icons.woff?3eomdc') format('woff'),
-    url('fonts/OMath-Content-Icons.svg?3eomdc#OMath-Content-Icons') format('svg');
+    url('fonts/OMath-Content-Icons.ttf?vejpe7') format('truetype'),
+    url('fonts/OMath-Content-Icons.woff?vejpe7') format('woff'),
+    url('fonts/OMath-Content-Icons.svg?vejpe7#OMath-Content-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ic-important-triangle:before {
+  content: "\e90b";
+}
 .ic-lightbulb:before {
   content: "\e908";
 }
