@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_Слой_1" data-name="Слой 1" viewBox="0 0 217 73" width="800">
+  <defs>
+    <style>
+      .cls-2{font-family:ArialMT,Arial;font-size:20px;isolation:isolate;fill:#616161}.cls-4{fill:none;stroke:rgba(97,97,97,.8);stroke-linecap:round;stroke-linejoin:round;stroke-width:2.5px}
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(57 28)"><tspan x="0" y="0">2</tspan></text>
+  <path d="M109 27 16 54" class="cls-4"/>
+  <text class="cls-2" transform="translate(151 25)"><tspan x="0" y="0">4</tspan></text>
+  <path d="m109 27 88 17" class="cls-4"/>
+  <path fill="#c6f" d="M116 27a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+  <path fill="#616161" d="M23 54a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm181-10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+</svg>
