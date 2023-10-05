@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_Слой_1" data-name="Слой 1" viewBox="0 0 365 326" width="800">
+  <defs>
+    <style>
+      .cls-3{font-family:ArialMT,Arial;font-size:20px;isolation:isolate;fill:#616161}.cls-5{fill:none;stroke:rgba(97,97,97,.8);stroke-linecap:round;stroke-linejoin:round;stroke-width:2.5px}
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(203 135)"><tspan x="0" y="0">2</tspan></text>
+  <path d="m255 133-93 28" class="cls-5"/>
+  <text class="cls-3" transform="translate(297 132)"><tspan x="0" y="0">4</tspan></text>
+  <path d="m255 133 88 17" class="cls-5"/>
+  <text class="cls-3" transform="translate(131 125)"><tspan x="0" y="0">3</tspan></text>
+  <path d="m162 161-66-51" class="cls-5"/>
+  <text class="cls-3" transform="translate(119 193)"><tspan x="0" y="0">4</tspan></text>
+  <path d="m162 161-42 60" class="cls-5"/>
+  <text class="cls-3" transform="translate(72 69)"><tspan x="0" y="0">1</tspan></text>
+  <path d="M96 110 45 58" class="cls-5"/>
+  <text class="cls-3" transform="translate(35 115)"><tspan x="0" y="0">4</tspan></text>
+  <path d="m96 110-74 23" class="cls-5"/>
+  <text class="cls-3" transform="translate(70 230)"><tspan x="0" y="0">1</tspan></text>
+  <path d="m120 221-62 26" class="cls-5"/>
+  <text class="cls-3" transform="translate(138 251)"><tspan x="0" y="0">3</tspan></text>
+  <path d="m120 221 13 50" class="cls-5"/>
+  <path fill="#c6f" d="M262 133a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+  <path fill="#616161" d="M169 161a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm181-11a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-247-40a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm24 111a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+  <path fill="#69f" d="M52 58a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm-23 75a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm36 114a7 7 0 1 1-14 0 7 7 0 0 1 14 0Zm75 24a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+</svg>
