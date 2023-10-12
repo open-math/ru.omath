@@ -1,1 +1,141 @@
-var OMathContent=(()=>{var l=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var y=Object.prototype.hasOwnProperty;var E=(i,t)=>{for(var e in t)l(i,e,{get:t[e],enumerable:!0})},A=(i,t,e,o)=>{if(t&&typeof t=="object"||typeof t=="function")for(let n of f(t))!y.call(i,n)&&n!==e&&l(i,n,{get:()=>t[n],enumerable:!(o=g(t,n))||o.enumerable});return i};var S=i=>A(l({},"__esModule",{value:!0}),i);var v={};E(v,{initProducts:()=>L});function p(i,t){i.querySelectorAll(".image").forEach(e=>b(e,t?.vendor?.photoSwipe))}function b(i,t){let e=250,o={wheelToZoom:!0,bgOpacity:.9,showAnimationDuration:e,hideAnimationDuration:e},n=new PhotoSwipeLightbox({gallery:i,children:"a[data-pswp-single]",pswpModule:PhotoSwipe,...o,...t});n.on("contentAppend",function(r){n.pswp.currSlide.data.element.querySelector("img").hasAttribute("data-invertible")&&r.content.element.setAttribute("data-invertible","")});let c=new PhotoSwipeDynamicCaption(n,{type:"below",captionContent:r=>{let a=r.data.element.closest(".image").querySelector(":scope > .caption");return a?a.innerHTML:""}});n.init()}function m(i){i.querySelectorAll(".accentBlock").forEach(t=>{let e=t.querySelector(":scope > .side > .expand");e&&e.addEventListener("click",()=>t.toggleAttribute("data-expand-open"))})}var s=class{selectorImages;displayImages;constructor(t){this.selectorImages=t.querySelectorAll(":scope > .selector > .inner > .image"),this.displayImages=t.querySelectorAll(":scope > .display > .displayImage"),this.selectorImages.forEach((n,c)=>n.addEventListener("click",()=>{this.selectorImages.forEach(r=>r.removeAttribute("data-current")),n.setAttribute("data-current",""),this.displayImages.forEach(r=>r.removeAttribute("data-current")),this.displayImages[c].setAttribute("data-current","")}));let e=parseFloat(t.getAttribute("data-start"))-1;e<0&&(e=0),e>this.selectorImages.length-1&&(e=this.selectorImages.length-1);let o=this.selectorImages[e];o&&o.click()}};function u(i){i.querySelectorAll(".gallery").forEach(t=>new s(t))}function d(i){i.querySelectorAll("a.link").forEach(t=>{let e,o=!1;t.addEventListener("click",n=>{o||!t.hasAttribute("data-preview")||(n.preventDefault(),clearTimeout(e),o=!0,e=setTimeout(()=>{o=!1},300),OMathEvent.onLinkClick(t,n))})})}function h(i){i.querySelectorAll(".task").forEach(t=>{t.querySelectorAll(":scope > header > .controls > button").forEach(e=>{e.addEventListener("click",()=>{t.toggleAttribute(`data-${e.getAttribute("data-section")}-open`)})})})}var w=[p,m,u,d,h];function L(i,t={}){w.forEach(e=>e(i,t))}return S(v);})();
+var OMathContent = (() => {
+  var __defProp = Object.defineProperty;
+  var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+  var __getOwnPropNames = Object.getOwnPropertyNames;
+  var __hasOwnProp = Object.prototype.hasOwnProperty;
+  var __export = (target, all) => {
+    for (var name in all)
+      __defProp(target, name, { get: all[name], enumerable: true });
+  };
+  var __copyProps = (to, from, except, desc) => {
+    if (from && typeof from === "object" || typeof from === "function") {
+      for (let key of __getOwnPropNames(from))
+        if (!__hasOwnProp.call(to, key) && key !== except)
+          __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+    }
+    return to;
+  };
+  var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+
+  // content/global/script/index.ts
+  var script_exports = {};
+  __export(script_exports, {
+    initProducts: () => initProducts
+  });
+
+  // content/block/image/script.ts
+  function init(contentElem, options) {
+    contentElem.querySelectorAll(".image").forEach((imgElem) => initPhotoSwipeIn(imgElem, options?.vendor?.photoSwipe));
+  }
+  function initPhotoSwipeIn(imgElement, phrases) {
+    let animDuration = 250;
+    let options = {
+      wheelToZoom: true,
+      bgOpacity: 0.9,
+      showAnimationDuration: animDuration,
+      hideAnimationDuration: animDuration
+    };
+    let lightbox = new PhotoSwipeLightbox({
+      gallery: imgElement,
+      children: "a[data-pswp-single]",
+      pswpModule: PhotoSwipe,
+      ...options,
+      ...phrases
+    });
+    lightbox.on("contentAppend", function(e) {
+      let isInvertible = lightbox.pswp.currSlide.data.element.querySelector("img").hasAttribute("data-invertible");
+      if (isInvertible)
+        e.content.element.setAttribute("data-invertible", "");
+    });
+    let plugin = new PhotoSwipeDynamicCaption(lightbox, {
+      type: "below",
+      captionContent: (slide) => {
+        let caption = slide.data.element.closest(".image").querySelector(":scope > .caption");
+        if (!caption)
+          return "";
+        return caption.innerHTML;
+      }
+    });
+    lightbox.init();
+  }
+
+  // content/block/accentBlock/script.ts
+  function init2(contentElem) {
+    contentElem.querySelectorAll(".accentBlock").forEach((abElement) => {
+      let expandButton = abElement.querySelector(":scope > .side > .expand");
+      if (expandButton)
+        expandButton.addEventListener("click", () => abElement.toggleAttribute("data-expand-open"));
+    });
+  }
+
+  // content/block/gallery/script.ts
+  var Gallery = class {
+    selectorImages;
+    displayImages;
+    constructor(root) {
+      this.selectorImages = root.querySelectorAll(":scope > .selector > .inner > .image");
+      this.displayImages = root.querySelectorAll(":scope > .display > .displayImage");
+      this.selectorImages.forEach((sImg, i) => sImg.addEventListener("click", () => {
+        this.selectorImages.forEach((_sImg) => _sImg.removeAttribute("data-current"));
+        sImg.setAttribute("data-current", "");
+        this.displayImages.forEach((dImg) => dImg.removeAttribute("data-current"));
+        this.displayImages[i].setAttribute("data-current", "");
+      }));
+      let startNum = parseFloat(root.getAttribute("data-start")) - 1;
+      if (startNum < 0)
+        startNum = 0;
+      if (startNum > this.selectorImages.length - 1)
+        startNum = this.selectorImages.length - 1;
+      let startImg = this.selectorImages[startNum];
+      if (startImg)
+        startImg.click();
+    }
+  };
+  function init3(contentElem) {
+    contentElem.querySelectorAll(".gallery").forEach((galleryElem) => new Gallery(galleryElem));
+  }
+
+  // content/inliner/link/script.ts
+  function init4(contentElem) {
+    contentElem.querySelectorAll("a.link").forEach((link) => {
+      let timeout;
+      let canOpenLink = false;
+      link.addEventListener("click", (e) => {
+        if (canOpenLink || !link.hasAttribute("data-preview"))
+          return;
+        e.preventDefault();
+        clearTimeout(timeout);
+        canOpenLink = true;
+        timeout = setTimeout(() => {
+          canOpenLink = false;
+        }, 300);
+        OMathEvent.onLinkClick(link, e);
+      });
+    });
+  }
+
+  // content/block/task/script.ts
+  function init5(contentElem) {
+    contentElem.querySelectorAll(".task").forEach((task) => {
+      task.querySelectorAll(":scope > header > .controls > button").forEach((button) => {
+        button.addEventListener("click", () => {
+          task.toggleAttribute(`data-${button.getAttribute("data-section")}-open`);
+        });
+      });
+    });
+  }
+
+  // content/global/script/index.ts
+  var products = [
+    init,
+    init2,
+    init3,
+    init4,
+    init5
+  ];
+  function initProducts(contentElem, gOptions = {}) {
+    products.forEach((product) => product(contentElem, gOptions));
+  }
+  return __toCommonJS(script_exports);
+})();
+//# sourceMappingURL=script.js.map

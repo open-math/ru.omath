@@ -1,0 +1,1 @@
+(()=>{window.addEventListener("load",()=>{document.querySelectorAll("body > main > article .book").forEach(e=>{e.querySelector(":scope > header .showSwitch").addEventListener("click",()=>e.toggleAttribute("data-open")),e.querySelectorAll(":scope .topic").forEach(t=>{t.querySelector(":scope .action").addEventListener("click",()=>t.toggleAttribute("data-open"))})})});})();
