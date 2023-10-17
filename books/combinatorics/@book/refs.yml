@@ -1,0 +1,48 @@
+-   type:   book
+    title:  Комбинаторика
+    desc:   Н.Я. Виленкин, А.Н. Виленкин, П.А. Виленкин, 7-е издание, МЦНМО, 2019
+    resume: Почти идеальная подача теории через жизненные примеры. Интересные задачи. Широчайший охват тем, в том числе и из высшей математики.
+
+-   type:   book
+    title:  Комбинаторика — олимпиаднику
+    desc:   Материалы по математике. Игорь Вячеславович Яковлев
+    resume: Понятная и краткая теория. Множество задач на отработку, почти все из которых олимпиадные.
+    link:   https://mathus.ru/math/kombinatorika.pdf
+
+-   type:   site
+    title:  Решу ЕГЭ
+    desc:   Образовательный портал для подготовки к экзаменам
+    link:   https://ege.sdamgia.ru/
+
+-   type:   site
+    title:  Начальные сведения комбинаторики
+    desc:   ЯКласс — цифровой образовательный ресурс для школ
+    link:   https://www.yaklass.ru/p/algebra/11-klass/nachalnye-svedeniia-kombinatoriki-9340
+
+-   type:   site
+    title:  Brilliant
+    desc:   Образовательная платформа по математике и IT
+    refs:
+        -   type:   article
+            title:  Rule of Sum
+            link:   https://brilliant.org/wiki/rule-of-sum/
+
+        -   type:   article
+            title:  Rule of Product
+            link:   https://brilliant.org/wiki/rule-of-product/
+
+-   type:   site
+    title:  Википедия
+    desc:   Свободная энциклопедия
+    refs:
+        -   type:   article
+            title:  Комбинаторика
+            link:   https://w.wiki/_vFng
+
+        -   type:   article
+            title:  Комбинаторные принципы
+            link:   https://w.wiki/_vFjK
+
+-   type:   book
+    title:  ЕГЭ 2020. Математика. Теория вероятностей
+    desc:   Рабочая тетрадь, И.Р. Высоцкий, И.В. Ященко, МЦНМО, 2020

@@ -10,9 +10,14 @@ links:
         label: Редактор
         link: https://editor.omath.net
         icon: pen-nib
-    community:
-        label: Сообщество
-        link: https://vk.com/math.head
+    vk:
+        label: Группа ВКонтакте
+        link: https://vk.com/omath
+        icon: vk
+    tg:
+        label: Telegram канал
+        link: https://t.me/omath_official
+        icon: telegram
     donate:
         label: Поддержать проект
         link: https://boosty.to/
