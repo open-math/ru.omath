@@ -1,6 +1,11 @@
 ^ productRule @article|d:rule-of-product
 ^ sumRule @article|combinatorics/rules/sum|d:rule-of-sum
 
+@todo
+    title: Задачи с монетками и кубиками
+    content: |
+        Самые разные вариации задач на броски монеток и кубиков, но уже без прямого перебора, а через использование правила произведения.
+
 @task
     title: Сегодня убираешься ты
     statement: |
