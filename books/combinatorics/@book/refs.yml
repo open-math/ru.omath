@@ -15,9 +15,16 @@
     link:   https://ege.sdamgia.ru/
 
 -   type:   site
-    title:  Начальные сведения комбинаторики
-    desc:   ЯКласс — цифровой образовательный ресурс для школ
-    link:   https://www.yaklass.ru/p/algebra/11-klass/nachalnye-svedeniia-kombinatoriki-9340
+    title:  ЯКласс
+    desc:   Цифровой образовательный ресурс для школ
+    refs:
+        -   type:   article
+            title:  Элементы комбинаторики, статистики и теории вероятностей
+            link:   https://www.yaklass.ru/p/algebra/9-klass/elementy-kombinatoriki-statistiki-i-teorii-veroiatnostei-10205
+
+        -   type:   article
+            title:  Начальные сведения комбинаторики
+            link:   https://www.yaklass.ru/p/algebra/11-klass/nachalnye-svedeniia-kombinatoriki-9340
 
 -   type:   site
     title:  Brilliant
@@ -42,6 +49,10 @@
         -   type:   article
             title:  Комбинаторные принципы
             link:   https://w.wiki/_vFjK
+
+        -   type:   article
+            title:  Оптический телеграф
+            link:   https://w.wiki/7vta
 
 -   type:   site
     title:  Математика

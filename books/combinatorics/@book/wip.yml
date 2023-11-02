@@ -3,6 +3,7 @@ todo:
       done: true
 
     - goal: Прямой перебор
+      done: true
 
     - goal: Правило сложения
       done: true
@@ -11,7 +12,10 @@ todo:
       done: true
 
     - goal: Формула включений-исключений
+
     - goal: Размещения
+      done: true
+
     - goal: Перестановки
     - goal: Сочетания
     - goal: Бином Ньютона
