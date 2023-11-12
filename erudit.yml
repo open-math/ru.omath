@@ -18,9 +18,6 @@ links:
         label: Telegram канал
         link: https://t.me/omath_official
         icon: telegram
-    donate:
-        label: Поддержать проект
-        link: https://boosty.to/
 
 books:
     Основы математики: basics
