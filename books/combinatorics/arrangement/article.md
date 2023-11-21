@@ -276,13 +276,13 @@ $$ 20 \cdot 19 \cdot 18 = 6\ 840 $$
 
 Обратите внимание, что полученная [формула](t:arrangement-unique-full) для размещений без повторений по сути является цепочкой умножений уменьшающихся на единицу чисел.
 Мы уже встречали такие цепочки, когда изучали [факториалы](@article|combinatorics/factorial).
-Они называются [убывающими факториалами](@article|combinatorics/factorial|t:falling-factorial).
+Они называются [убывающими факториалами](@article|combinatorics/factorial|d:falling-factorial).
 
 { #arrangement-factorial }
 @theorem
     title: Число размещений без повторений через факториалы
     main: |
-        $$ A^k_n = \frac{n!}{(n-k)!} $$
+        $$ A^k_n = n^{\underline{k}} = \frac{n!}{(n-k)!} $$
     proof: |
         У нас уже есть доказанная формула в виде цепочки умножений уменьшающихся на $1$ множителей.
 
