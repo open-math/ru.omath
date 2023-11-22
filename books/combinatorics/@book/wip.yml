@@ -12,6 +12,7 @@ todo:
       done: true
 
     - goal: Факториал
+      done: true
 
     - goal: Формула включений-исключений
 
