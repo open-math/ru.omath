@@ -654,7 +654,7 @@
         Все рассуждения из той задачи можно повторить для любых чисел.
         Поэтому найти $n$ подряд идущих составных чисел можно сразу после $(n+1)!$:
 
-        $$ \underbrace{(n+1)! + 2}_{1}, \quad \underbrace{(n+1)! + 3}_{2}, \quad \ldots, \quad \underbrace{(n+1)! + n}_{(n+1)-1 = n} $$
+        $$ \underbrace{(n+1)! + 2}_{1}, \quad \underbrace{(n+1)! + 3}_{2}, \quad \ldots, \quad \underbrace{(n+1)! + n+1}_{(n+1)-1 = n} $$
 
         $\blacksquare$
 
