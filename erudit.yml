@@ -30,9 +30,10 @@ books:
 
     Экзамены:
         Общее по эказменам: exam/common
-        ОГЭ: exam/oge
         ЕГЭ. База: exam/ege-base
         ЕГЭ. Профиль: exam/ege
+        ОГЭ: exam/oge
+        ОГЭ. Физика: exam/oge-physics
 
     Занимательное: other
 

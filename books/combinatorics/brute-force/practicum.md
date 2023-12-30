@@ -340,7 +340,7 @@
         @image
             src: assets/practicum/power-tree-step-1.svg
             width: 200px
-            invertible: true
+            invert: dark
 
         Далее работаем с левой веткой.
         Число $2$ нельзя возвести в степень $1$, потому что в противном случае в результате получим $2$, которое не делится на $4$.
@@ -349,7 +349,7 @@
         @image
             src: assets/practicum/power-tree-step-2.svg
             width: 350px
-            invertible: true
+            invert: dark
         
         С правой сторой дерева все совсем просто.
         Никаких огранчений нет.
@@ -358,7 +358,7 @@
         @image
             src: assets/practicum/power-tree-full.svg
             width: 500px
-            invertible: true
+            invert: dark
 
         Итак, всего есть $10$ способов выбрать три числа так, чтобы выполнялось условие задачи.
     answer: |
@@ -390,7 +390,7 @@
         @image
             src: assets/practicum/numbers-circle-tree-step-1.svg
             width: 200px
-            invertible: true
+            invert: dark
 
         Можно выбрать любую ветку для продолжения.
         Для простоты будем всегда выбирать ветку с наименьшим числом.
@@ -410,7 +410,7 @@
         @image
             src: assets/practicum/numbers-circle-tree-step-2.svg
             width: 250px
-            invertible: true
+            invert: dark
 
         Ну и так далее. Ищем соседей, рисуем ветки, выбираем наименьшую, ищем соседей, рисуем ветки...
         Некоторые ветки будет невозможно продолжить.
@@ -421,7 +421,7 @@
         @image
             src: assets/practicum/numbers-circle-tree-full.svg
             width: 500px
-            invertible: true
+            invert: dark
 
         Не забываем проверить, чтобы сумма последнего числа (у меня это $8$) с самым первым (у меня это $3$) тоже удовлетворяла условию задачи, ведь цифры на самом деле записываются по кругу, так что $3$ и $8$ это тоже соседи!
         
@@ -911,7 +911,7 @@
         Тут может быть только два возможных варианта:
 
         @list
-            listType: ol
+            type: ol
             items:
                 - |
                     Одно или оба отгаданных места команд попали в им же угаданную тройку.

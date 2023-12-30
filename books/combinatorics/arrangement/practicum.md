@@ -127,7 +127,7 @@
         @image
             src: assets/practicum/roads-1.svg
             width: 375px
-            invertible: true
+            invert: dark
     hint: |
         Найдите, сколько есть вариантов продолжить движение по достижении очередной проселочной дороги.
     solution: |
@@ -185,7 +185,7 @@
         @image
             src: assets/practicum/roads-2.svg
             width: 375px
-            invertible: true
+            invert: dark
     hint: |
         Найдите, сколько есть вариантов продолжить движение по достижении очередной проселочной дороги.
     solution: |

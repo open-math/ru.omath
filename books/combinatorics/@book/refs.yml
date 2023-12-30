@@ -10,25 +10,9 @@
     link:   https://mathus.ru/math/kombinatorika.pdf
 
 -   type:   site
-    title:  Решу ЕГЭ
-    desc:   Образовательный портал для подготовки к экзаменам
-    link:   https://ege.sdamgia.ru/
-
--   type:   site
-    title:  ЯКласс
-    desc:   Цифровой образовательный ресурс для школ
-    refs:
-        -   type:   article
-            title:  Элементы комбинаторики, статистики и теории вероятностей
-            link:   https://www.yaklass.ru/p/algebra/9-klass/elementy-kombinatoriki-statistiki-i-teorii-veroiatnostei-10205
-
-        -   type:   article
-            title:  Начальные сведения комбинаторики
-            link:   https://www.yaklass.ru/p/algebra/11-klass/nachalnye-svedeniia-kombinatoriki-9340
-
--   type:   site
     title:  Brilliant
     desc:   Образовательная платформа по математике и IT
+    resume: Прекрасный сайт с отличными пояснениями, хорошими примерами и упражнениями.
     refs:
         -   type:   article
             title:  Rule of Sum
@@ -45,6 +29,31 @@
         -   type:   article
             title:  Trailing Number of Zeros
             link:   https://brilliant.org/wiki/trailing-number-of-zeros/
+
+        -   type:   article
+            title:  Permutations
+            link:   https://brilliant.org/wiki/permutations/
+
+        -   type:   article
+            title:  Permutations with Repetition
+            link:   https://brilliant.org/wiki/permutations-with-repetition/
+
+-   type:   site
+    title:  Решу ЕГЭ
+    desc:   Образовательный портал для подготовки к экзаменам
+    link:   https://ege.sdamgia.ru/
+
+-   type:   site
+    title:  ЯКласс
+    desc:   Цифровой образовательный ресурс для школ
+    refs:
+        -   type:   article
+            title:  Элементы комбинаторики, статистики и теории вероятностей
+            link:   https://www.yaklass.ru/p/algebra/9-klass/elementy-kombinatoriki-statistiki-i-teorii-veroiatnostei-10205
+
+        -   type:   article
+            title:  Начальные сведения комбинаторики
+            link:   https://www.yaklass.ru/p/algebra/11-klass/nachalnye-svedeniia-kombinatoriki-9340
 
 -   type:   site
     title:  Википедия

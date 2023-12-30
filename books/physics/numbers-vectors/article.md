@@ -60,7 +60,7 @@ content: |
 { #proj }
 @image
     src: assets/proj.svg
-    invertible: true
+    invert: dark
     caption: Проекции векторов
 
 { #proj}
@@ -94,7 +94,7 @@ content: |
 { #coordexample }
 @image
     src: assets/vectorcoord.png
-    invertible: true
+    invert: dark
     caption: Вектора для примеров
 
 При сложении векторов их координаты складываются. 

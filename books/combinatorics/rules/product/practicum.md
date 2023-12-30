@@ -35,7 +35,7 @@
         @image
             src: assets/practicum/polygon.svg
             width: 400px
-            invertible: true
+            invert: dark
     solution: |
         Всего в многоугольнике $12$ вершин.
         Стало быть, первую вершину можно выбрать $12$-ю способами.

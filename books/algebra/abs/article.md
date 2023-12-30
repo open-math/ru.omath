@@ -310,7 +310,7 @@ $$ |x| - |y| \leq |x \pm y| \leq |x| + |y| $$
 @image
     src: assets/two-distance.svg
     width: 700px
-    invertible: true
+    invert: dark
     caption: Расстояние между двумя точками
 
 Общий посыл вы уловили. Для нахождения расстояния между двумя точками, надо из большей точки вычесть меньшую. Если сделать наоборот, то получим противоположное, отрицательное расстояние.
@@ -365,7 +365,7 @@ $$ |5| = |5-0| \qquad |-2| = |-2 - 0| $$
 @image
     src: assets/abs-plot.svg
     width: 650px
-    invertible: true
+    invert: dark
     caption: График функции модуля
 
 Помимо рассмотренных ранее уникальных свойств модуля, можно также проанализировать его на предмет наличия общих свойств функций.
@@ -487,12 +487,12 @@ $$ |5| = |5-0| \qquad |-2| = |-2 - 0| $$
     images:
         -   src: assets/less-strict.svg
             caption: Геометрический смысл неравенств с "<"
-            invertible: true
+            invert: dark
             width: 500px
 
         -   src: assets/less.svg
             caption: Геометрический смысл неравенств с "<="
-            invertible: true
+            invert: dark
             width: 500px
 
 @example
@@ -523,7 +523,7 @@ $$ -a < x - C < a \\ C - a < x < C + a $$
 @image
     src: assets/neighbourhood.svg
     width: 600px
-    invertible: true
+    invert: dark
     caption: Геометрический смысл окрестности точки
 
 Такие вот неравенства называют **окрестностями**. Если говорить точнее, неравенство $|x-C| < a$ задает $a$-окрестность точки $C$.
@@ -591,12 +591,12 @@ $$ -a < x - C < a \\ C - a < x < C + a $$
     images:
         -   src: assets/greater-strict.svg
             caption: Геометрический смысл неравенств с ">"
-            invertible: true
+            invert: dark
             width: 500px
 
         -   src: assets/greater.svg
             caption: Геометрический смысл неравенств с ">="
-            invertible: true
+            invert: dark
             width: 500px
 
 Легко заметить, что неравенства вида $|f| > g$ являются, по факту, отрицанием неравенств вида $|f|< g$. Действительно, в обоих случаях мы строим симметричный коридор. Только в первом в случае с $>$ мы берем все числа вне этого коридора, а в случае с $<$ все числа внутри него.

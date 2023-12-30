@@ -15,17 +15,17 @@
     images:
         -   src: assets/pairs-behaviour/f-pair-increase.svg
             caption: Увеличение значения
-            invertible: true
+            invert: dark
             width: 350px
 
         -   src: assets/pairs-behaviour/f-pair-decrease.svg
             caption: Уменьшение значения
-            invertible: true
+            invert: dark
             width: 350px
 
         -   src: assets/pairs-behaviour/f-pair-const.svg
             caption: Сохранение значения
-            invertible: true
+            invert: dark
             width: 350px
 
 Итак, в самом общем смысле на паре точек функция может измениться лишь тремя перечисленными выше способами.
@@ -36,7 +36,7 @@
 @image
     src: assets/f-wrong-example.svg
     width: 450px
-    invertible: true
+    invert: dark
     caption: Хаотическая функция
 
 Как же тогда быть? А все просто! Нужно смотреть на изменение функции не на конкрентной паре точек, а на **всех** парах $x_1 < x_2$ промежутка.
@@ -56,12 +56,12 @@
     images:
         -   src: assets/increasing.svg
             caption: Возрастающая (неубывающая) функция
-            invertible: true
+            invert: dark
             width: 450px
 
         -   src: assets/increasing-strict.svg
             caption: Строго возрастающая функция
-            invertible: true
+            invert: dark
             width: 450px
 
 Посмотрите на два графика функций выше. У обеих этих функций есть одна общая черта: по мере увеличения аргумента $x$, значения $y$ функции $f(x)$ тоже увеличиваются. Если говорить проще, по мере продвижения по оси $Ox$ вправо, значения функции продвигаются по оси $Oy$ вверх.
@@ -72,7 +72,7 @@
 @image
     src: assets/increasing-details.svg
     width: 500px
-    invertible: true
+    invert: dark
     caption: Возрастающая функция в деталях
 
 На картинке выше неравенство $f(x_1) < f(x_2)$ выполняется для первой и последней пар $x_1$ и $x_2$, а для пары в середине выполняется равенство $f(x_1) = f(x_2)$. Принимая во внимание среднюю пару будет очень странно заявлять, что функция "возрастает". Она ведь не меняет свое значение на этом горизонтальном промежутке! Поэтому часто возрастающую функцию называют неубывающей, чтобы подчеркнуть, что она не обязательно растет, но может и просто сохранять свое значение.
@@ -186,12 +186,12 @@
     images:
         -   src: assets/decreasing.svg
             caption: Убывающая (невозрастающая) функция
-            invertible: true
+            invert: dark
             width: 450px
 
         -   src: assets/decreasing-strict.svg
             caption: Строго убывающая функция
-            invertible: true
+            invert: dark
             width: 450px
 
 Похожие рассуждения из предыдущего раздела можно провести и для обратного случая. На рисунке выше изображены две функции. Замечаем, что при увеличении аргумента $x$, значения $y$ функции $f(x)$ уменьшаются.
@@ -511,7 +511,7 @@ $$ \exists x_1, x_2 \ : \ x_1 < x_2 \text{ и } f(x_1) > f(x_2) \\ \text{и} \\ 
     src: assets/f-inverse.svg
     width: 400px
     caption: Точки функции и обратной функции
-    invertible: true
+    invert: dark
 
 На иллюстрации выше изображена строго возрастающая функция. Факт ее строгого возрастания выражен зеленой парой точек $x_1 < x_2$, для значений которых, как видим, выполняется неравенство $f(x_1) < f(x_2)$.
 
@@ -599,7 +599,7 @@ $$
         @image
             src: assets/inverse-not-monotonic-example.svg
             width: 350px
-            invertible: true
+            invert: dark
 
         По [определению](d:non-monotonic) для доказательства немонотонности $f(x)$ нам нужно найти две пары, на одной из которых она строго возрастает, а на другой строго убывает.
 

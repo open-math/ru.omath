@@ -65,7 +65,7 @@
 
         @image
             src: assets/projtask.png
-            invertible: true
+            invert: dark
     
     hint: |
         1. Вспомните [теорию](@article|list:typeproj).
@@ -97,7 +97,7 @@
  
         @image
             src: assets/vectors.jpg
-            invertible: true
+            invert: dark
             width: 500px
     
     hint: |
@@ -122,7 +122,7 @@
  
         @image
             src: assets/vectors.jpg
-            invertible: true
+            invert: dark
             width: 500px
     
     hint: |
