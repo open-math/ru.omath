@@ -111,3 +111,23 @@
 -   type:   book
     title:  ЕГЭ 2020. Математика. Теория вероятностей
     desc:   Рабочая тетрадь, И.Р. Высоцкий, И.В. Ященко, МЦНМО, 2020
+
+-   type:   group
+    title:  Анаграммы
+    desc:   Примеры использования перестановок в жизни
+    refs:
+        -   type:   article
+            title:  Анаграмма
+            link:   https://w.wiki/8mJQ
+
+        -   type:   article
+            title:  Christiaan Huygens — Linda Hall Library
+            link:   https://www.lindahall.org/about/news/scientist-of-the-day/christiaan-huygens-2/
+
+        -   type:   article
+            title:  How A Misinterpreted Anagram Predicted The Moons of Mars
+            link:   https://www.mentalfloss.com/article/87433/how-misinterpreted-anagram-predicted-moons-mars
+
+        -   type:   article
+            title:  Загадки Галилея и их креативные разгадки Кеплером
+            link:   https://dzen.ru/a/YUL8isSqKldyJTgO

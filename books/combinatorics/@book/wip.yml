@@ -20,6 +20,8 @@ todo:
       done: true
 
     - goal: Перестановки
+      done: true
+
     - goal: Сочетания
     - goal: Бином Ньютона
     - goal: Треугольник Паскаля

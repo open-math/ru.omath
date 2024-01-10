@@ -1,0 +1,86 @@
+combinatorics-book:
+    featured: true
+    type:   book
+    title:  Комбинаторика
+    desc:   Н.Я. Виленкин, А.Н. Виленкин, П.А. Виленкин, 7-е издание, МЦНМО, 2019
+    resume: Почти идеальная подача теории через жизненные примеры. Интересные задачи. Широчайший охват тем, в том числе и из высшей математики.
+
+combinatorics-olympiad:
+    featured: true
+    type:   book
+    title:  Комбинаторика — олимпиаднику
+    desc:   Материалы по математике. Игорь Вячеславович Яковлев
+    link:   https://mathus.ru/math/kombinatorika.pdf
+    resume: Понятная и краткая теория. Множество задач на отработку, почти все из которых олимпиадные.
+
+brilliant:
+    type:   site
+    title:  Brilliant
+    desc:   Образовательная платформа по математике и IT
+    link:   https://brilliant.org/
+    resume: Прекрасный сайт с отличными пояснениями, хорошими примерами и упражнениями.
+
+wiki:
+    type:   site
+    title:  Википедия
+    desc:   Свободная энциклопедия
+    link:   https://www.wikipedia.org/
+
+yaklass:
+    type:   site
+    title:  ЯКласс
+    desc:   Цифровой образовательный ресурс для школ
+    link:   https://www.yaklass.ru/
+
+sdamgia:
+    type:   site
+    title:  Сдам ГИА / Решу ЕГЭ / Решу ОГЭ
+    desc:   Образовательный портал для подготовки к заключительным школьным экзаменам в России
+    link:   https://sdamgia.ru/
+
+math-exercises:
+    type:   site
+    title:  Math Exercises
+    desc:   Сборник упражнений по математике
+    link:   https://www.math-exercises.com/
+
+archimedes-lab:
+    type:   site
+    title:  Archimedes Lab Project
+    desc:   Сборник математических фактов
+    link:   https://archimedes-lab.org/
+
+math-is-fun:
+    type:   site
+    title:  Math is Fun
+    desc:   Обучающие статьи по математике
+    link:   https://www.mathsisfun.com/
+
+dzen:
+    type:   site
+    title:  Дзен
+    desc:   Российская блог-платформа
+    link:   https://dzen.ru/
+
+linda-hall-library:
+    type:   site
+    title:  Linda Hall Library
+    desc:   Частная амерканская библиотека
+    link:   https://www.lindahall.org/
+
+math-hashcode:
+    type:   site
+    title:  Вопросы и ответы по Математике
+    desc:   Форум вопросов и ответов для математиков наподобие Stack Overflow
+    link:   http://math.hashcode.ru/
+
+ege-probability-workbook:
+    type:   book
+    title:  ЕГЭ 2020. Математика. Теория вероятностей
+    desc:   Рабочая тетрадь, И.Р. Высоцкий, И.В. Ященко, МЦНМО, 2020
+
+mentalfloss:
+    type:   site
+    title:  Mental Floss
+    desc:   Сайт с познавательными статьями, интересными фактами, опросами и прочим
+    link:   https://www.mentalfloss.com/ 
