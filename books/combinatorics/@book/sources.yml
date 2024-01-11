@@ -65,7 +65,7 @@ dzen:
 linda-hall-library:
     type:   site
     title:  Linda Hall Library
-    desc:   Частная амерканская библиотека
+    desc:   Частная американская библиотека
     link:   https://www.lindahall.org/
 
 math-hashcode:
@@ -83,4 +83,16 @@ mentalfloss:
     type:   site
     title:  Mental Floss
     desc:   Сайт с познавательными статьями, интересными фактами, опросами и прочим
-    link:   https://www.mentalfloss.com/ 
+    link:   https://www.mentalfloss.com/
+
+pikabu:
+    type:   site
+    title:  Пикабу
+    desc:   Информационно-развлекательное сообщество
+    link:   https://pikabu.ru/
+
+demidovich:
+    type:   book
+    title:  Сборник задач и упражнений по математическому анализу
+    desc:   Борис Павлович Демидович, "Астрель", 2005
+    link:   https://chembaby.ru/wp-content/uploads/2019/02/Сборник-задач-и-упр.-по-мат.-анализу_Демидович_2005-560с.pdf

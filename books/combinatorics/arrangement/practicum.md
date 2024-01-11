@@ -892,7 +892,9 @@
         @image
             src: assets/hardi-ramanujan.jpg
             width: 600px
-            caption: Харди и Рамануджан. Кадр из фильма.
+            caption:
+                main: Харди и Рамануджан в Кембридже
+                secondary: Фильм "Человек, который познал бесконечность", 2015
 
 @todo
     title: Графический ключ

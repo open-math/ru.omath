@@ -1,0 +1,17 @@
+combinatorics-book:
+    -   title:  1. Суеверный председатель
+    -   title:  2. Лото
+    -   title:  4. Правила суммы и произведения
+
+brilliant:
+    -   title:  Rule of Product
+        link:   https://brilliant.org/wiki/rule-of-product/
+
+wiki:
+    -   title:  Латинский квадрат
+        link:   https://w.wiki/88rj
+
+sdamgia:
+    -   title:  Количество программ с обязательным этапом
+        desc:   Задание 23. ЕГЭ Информатика
+        link:   https://inf-ege.sdamgia.ru/problem?id=11358

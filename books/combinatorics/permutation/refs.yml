@@ -1,3 +1,9 @@
+combinatorics-book:
+    -   title:  20. Перестановки
+    -   title:  21. Лингвистические проблемы
+    -   title:  22. Перестановки с повторениями
+    -   title:  153. Анаграммы
+
 wiki:
     -   title:  Кольца Сатурна
         link:   https://w.wiki/8oRx
