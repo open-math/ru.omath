@@ -1,6 +1,6 @@
 ^ permutations article|theorem:permutations
 ^ permutationsRepeat article|theorem:permutations-repeat
-^ productRule article|combinatorics/rules/product|important:generic-rule-of-product
+^ productRule article|combinatorics/rules/product|definition:rule-of-product
 
 @task
     title: Продукт цифросодержащий
@@ -321,12 +321,14 @@
         Найти $n$:
 
         $$ а) \ \frac{P_{n+5}}{P_{n-k}} = 240 A_{n+3}^{k+3} \qquad б) \ (n+2)! = 132 A_n^k P_{n-k} \qquad в) \ \frac{A_{n+4}^4}{(n+2)!} < \frac{143}{4P_n} $$
+    hint: |
+        Пользуйтесь [формулой](^permutations) числа перестановок и факториальной [формулой](article|combinatorics/arrangement|t:arrangement-factorial) числа размещений без повторений.
     solution: |
         ### Пункт а)
 
         $$ \frac{P_{n+5}}{P_{n-k}} = 240 A_{n+3}^{k+3} $$
 
-        Используем [формулу](^permutations) для числа перестановок и [факториальную](article|combinatorics/arrangement|t:arrangement-factorial) формулу размещений без повторений:
+        Используем [формулу](^permutations) для числа перестановок и [факториальную](article|combinatorics/arrangement|t:arrangement-factorial) формулу числа размещений без повторений:
 
         @math
             \frac{(n+5)!}{(n-k)!} = 240 \frac{(n+3)!}{(n+3-(k+3))!}
@@ -411,6 +413,10 @@
         $$ -\frac{19}{2} = -9.5 < n < \frac{5}{2} = 2.5 $$
 
         Так как $n$ -- неотрицательное целое число (иначе задача не имеет смысла), то годятся варианты $n = 0; 1; 2$.
+    answer: |
+        Пункт а) $11$<br>
+        Пункт б) $10$<br>
+        Пункт в) $0, 1, 2$
 
 @task
     title: Фруктовые дни
@@ -456,7 +462,7 @@
         "парабола" -- $6720$
 
 @task
-    title: Повторение повтрению рознь
+    title: Повторение повторению рознь
     statement: |
         Миша решает задачу по комбинаторике:
 
