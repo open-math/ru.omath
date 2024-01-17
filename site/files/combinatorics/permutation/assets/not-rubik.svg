@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-2{fill:#ff6c29}.cls-6{fill:#cdcdcd}
+    </style>
+  </defs>
+  <path fill="#325ee6" d="M0 0h96.7v96.7H0z"/>
+  <path fill="#25c54a" d="M101.7 0h96.7v96.7h-96.7z"/>
+  <path fill="#f02c2d" d="M203.3 0H300v96.7h-96.7zM0 101.7h96.7v96.7H0z"/>
+  <path d="M101.7 101.7h96.7v96.7h-96.7z" class="cls-6"/>
+  <path d="M203.3 101.7H300v96.7h-96.7z" class="cls-2"/>
+  <path d="M0 203.3h96.7V300H0z" class="cls-6"/>
+  <path fill="#ffff20" d="M101.7 203.3h96.7V300h-96.7z"/>
+  <path d="M203.3 203.3H300V300h-96.7z" class="cls-2"/>
+</svg>
