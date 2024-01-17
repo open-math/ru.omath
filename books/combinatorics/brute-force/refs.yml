@@ -28,3 +28,7 @@ dzen:
     -   title:  «Bombe» Тьюринга, взорвавшая «Enigma»
         desc:   Блог "Невероятные Механизмы"
         link:   https://dzen.ru/a/XEWR7iIiwwCu4U1h
+
+math-manual:
+    -   title:  Пример 3
+        desc:   1. Примеры простейших комбинаторных задач, Глава XI, стр. 301
