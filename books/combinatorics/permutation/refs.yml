@@ -39,4 +39,5 @@ yaklass:
         link:   https://www.yaklass.ru/p/algebra/11-klass/nachalnye-svedeniia-kombinatoriki-9340/perestanovki-perestanovki-bez-povtorenii-9343
 
 math-manual:
-    -   title:  Примеры и задачи из главы XI
+    -   title:  Примеры и задачи на перестановки
+        desc:   Глава XI
