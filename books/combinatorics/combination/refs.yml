@@ -4,3 +4,12 @@ combinatorics-book:
 math-manual:
     -   title:  Примеры и задачи на сочетания
         desc:   Глава XI
+
+matburo:
+    -   title:  Пример сочетаний с повторениями
+        desc:   Число сочетаний с повторениями
+        link:   https://www.matburo.ru/tvart_sub.php?p=calc_CR
+
+    -   title:  Примеры на сочетания с повторениями и без повторений
+        desc:   Основные формулы комбинаторики [PDF]
+        link:   https://www.matburo.ru/tv/Kombinatorics_MatBuro.pdf
