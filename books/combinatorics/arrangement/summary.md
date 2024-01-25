@@ -3,12 +3,16 @@
 
 Многие задачи сводятся к тому, что есть $n$ видов элементов, из которых надо сформировать комбинации размером $k$, причем порядок следования элементов **имеет** значение.
 
-Таким комбинациям решили дать общее название : "размещения из $n$ по $k$" -- из $n$ (элементов) по $k$ (вакантным местам).
+Таким комбинациям решили дать общее название: "размещения из $n$ по $k$" -- из $n$ (элементов) по $k$ (вакантным местам).
 В зависимости от того, допустимо ли повторение элементов, размещения разделяют на два типа:
 
 <~ @article|d:arrangement-repeat
 
+<~ article|example:arrangements-def
+
 <~ @article|d:arrangement-unique
+
+<~ article|example:arrangements-unique-def
 
 ---
 
@@ -17,6 +21,8 @@
 Без повторений это цепочка из $k$ умножений уменьшающихся на единицу множителей, начиная с числа $n$:
 
 <~ @article|t:arrangement-repeat
+
+<~ article|example:arrangements-theorem
 
 { #arrangement-unique }
 @theorem
@@ -27,3 +33,5 @@
         $$ A_n^k = \frac{n!}{(n-k)!} $$
     proof: |
         Смотрите доказательства [верхнего](@article|t:arrangement-unique-full) и [нижнего](@article|t:arrangement-factorial) равенств в статье.
+
+<~ article|example:arrangements-unique-theorem
