@@ -9,6 +9,8 @@
 
 ## Примеры
 
+<~ article|paragraph:sum-rule-usage
+
 <~ @article|example:example1
 
 <~ @article|example:example2
