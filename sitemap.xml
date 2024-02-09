@@ -4,6 +4,8 @@
     <url><loc>https://omath.ru</loc></url>
     <url><loc>https://omath.ru/article/algebra/abs</loc></url>
     <url><loc>https://omath.ru/article/algebra/f-properties/monotonic</loc></url>
+    <url><loc>https://omath.ru/article/applications/division-by-zero</loc></url>
+    <url><loc>https://omath.ru/article/applications/power-sum</loc></url>
     <url><loc>https://omath.ru/article/base-logic/about-math-logic</loc></url>
     <url><loc>https://omath.ru/article/base-logic/propositions</loc></url>
     <url><loc>https://omath.ru/article/basics/fraction/definition</loc></url>
@@ -15,6 +17,9 @@
     <url><loc>https://omath.ru/article/combinatorics/arrangement</loc></url>
     <url><loc>https://omath.ru/summary/combinatorics/arrangement</loc></url>
     <url><loc>https://omath.ru/practicum/combinatorics/arrangement</loc></url>
+    <url><loc>https://omath.ru/article/combinatorics/binomial-theorem</loc></url>
+    <url><loc>https://omath.ru/summary/combinatorics/binomial-theorem</loc></url>
+    <url><loc>https://omath.ru/practicum/combinatorics/binomial-theorem</loc></url>
     <url><loc>https://omath.ru/article/combinatorics/brute-force</loc></url>
     <url><loc>https://omath.ru/summary/combinatorics/brute-force</loc></url>
     <url><loc>https://omath.ru/practicum/combinatorics/brute-force</loc></url>
@@ -43,7 +48,6 @@
     <url><loc>https://omath.ru/article/lang-of-math/expressions</loc></url>
     <url><loc>https://omath.ru/article/lang-of-math/langs</loc></url>
     <url><loc>https://omath.ru/article/lang-of-math/math-lang</loc></url>
-    <url><loc>https://omath.ru/article/other/division-by-zero</loc></url>
     <url><loc>https://omath.ru/article/physics/numbers-vectors</loc></url>
     <url><loc>https://omath.ru/summary/physics/numbers-vectors</loc></url>
     <url><loc>https://omath.ru/practicum/physics/numbers-vectors</loc></url>
@@ -56,12 +60,12 @@
     <url><loc>https://omath.ru/book/base-logic</loc></url>
     <url><loc>https://omath.ru/book/algebra</loc></url>
     <url><loc>https://omath.ru/book/combinatorics</loc></url>
+    <url><loc>https://omath.ru/book/applications</loc></url>
     <url><loc>https://omath.ru/book/exam/common</loc></url>
     <url><loc>https://omath.ru/book/exam/ege-base</loc></url>
     <url><loc>https://omath.ru/book/exam/ege</loc></url>
     <url><loc>https://omath.ru/book/exam/oge</loc></url>
     <url><loc>https://omath.ru/book/exam/oge-physics</loc></url>
-    <url><loc>https://omath.ru/book/other</loc></url>
     <url><loc>https://omath.ru/book/physics</loc></url>
     <url><loc>https://omath.ru/hq/todo</loc></url>
     <url><loc>https://omath.ru/hq/guide</loc></url>
