@@ -1,0 +1,13 @@
+kvant:
+    featured: true
+    type:   book
+    title:  Журнал "Квант"
+    desc:   Научно-популярный физико-математический журнал для школьников и студентов
+    resume: Кладезь интересных математических приложений!
+    link:   https://kvant.mccme.ru/
+
+elementary-algebra:
+    type:   book
+    title:  Элементарная алгебра
+    desc:   Сергей Трофимович Завало, издательство "Просвещение", 1964
+    link:   https://scask.ru/o_book_ela.php

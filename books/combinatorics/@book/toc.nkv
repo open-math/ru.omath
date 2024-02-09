@@ -9,3 +9,5 @@
     Размещения: arrangement
     Перестановки: permutation
     Сочетания: combination
+!Приложения:
+    Бином Ньютона: binomial-theorem

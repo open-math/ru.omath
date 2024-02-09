@@ -107,3 +107,15 @@ matburo:
     title:  МатБюро
     desc:   Справочные материалы по математике
     link:   https://www.matburo.ru/
+
+znanija:
+    type:   site
+    title:  Знания
+    desc:   Вопросы и ответы по школьным предметам
+    link:   https://znanija.com/
+
+elementary-algebra:
+    type:   book
+    title:  Элементарная алгебра
+    desc:   Сергей Трофимович Завало, издательство "Просвещение", 1964
+    link:   https://scask.ru/o_book_ela.php

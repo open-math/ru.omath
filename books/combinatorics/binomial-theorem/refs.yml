@@ -1,0 +1,36 @@
+combinatorics-book:
+    -   title:  24. Бином Ньютона
+
+math-manual:
+    -   title:  §2. Формула Ньютона
+        desc:   Глава XI
+    
+    -   title:  Задачи к главе XI
+
+yaklass:
+    -   title:  Треугольник Паскаля. Бином Ньютона
+        link:   https://www.yaklass.ru/p/algebra/11-klass/nachalnye-svedeniia-kombinatoriki-9340/treugolnik-paskalia-binom-niutona-9489
+
+wiki:
+    -   title:  Бином Ньютона
+        link:   https://w.wiki/6MbF
+
+    -   title:  Биномиальный коэффициент
+        link:   https://w.wiki/93fn
+
+    -   title:  Правило Паскаля
+        link:   https://w.wiki/95qB
+
+    -   title:  Pascal's triangle
+        link:   https://w.wiki/96RU
+
+znanija:
+    -   title:  Сумма коэффициентов многочлена
+        link:   https://znanija.com/task/6877179
+
+brilliant:
+    -   title:  Binomial Theorem
+        link:   https://brilliant.org/wiki/binomial-theorem-n-choose-k/
+
+elementary-algebra:
+    -   title:  §4. Полиномиальная теорема

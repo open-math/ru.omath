@@ -23,6 +23,8 @@ $$ C_n^k \qquad или \qquad \binom{n}{k} $$
 
 <~ article|example:combinations-theorem
 
+<~ article|important:combinations-purpose
+
 ---
 
 Число сочетаний с повторениями обозначается только одним способом -- $\bar{C}_n^k$.

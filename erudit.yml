@@ -23,10 +23,11 @@ books:
     Основы математики: basics
 
     Базовая математика:
-        Язык математики: lang-of-math
-        Основы логики: base-logic
-        Алгебра: algebra
-        Комбинаторика: combinatorics
+        Язык математики:    lang-of-math
+        Основы логики:      base-logic
+        Алгебра:            algebra
+        Комбинаторика:      combinatorics
+        Занимательное:      applications
 
     Экзамены:
         Общее по эказменам: exam/common
@@ -34,7 +35,5 @@ books:
         ЕГЭ. Профиль: exam/ege
         ОГЭ: exam/oge
         ОГЭ. Физика: exam/oge-physics
-
-    Занимательное: other
 
     Общая физика: physics
