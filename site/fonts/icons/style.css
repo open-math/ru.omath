@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Erudit-Icons';
-  src:  url('fonts/Erudit-Icons.eot?h4mc3h');
-  src:  url('fonts/Erudit-Icons.eot?h4mc3h#iefix') format('embedded-opentype'),
-    url('fonts/Erudit-Icons.ttf?h4mc3h') format('truetype'),
-    url('fonts/Erudit-Icons.woff?h4mc3h') format('woff'),
-    url('fonts/Erudit-Icons.svg?h4mc3h#Erudit-Icons') format('svg');
+  src:  url('fonts/Erudit-Icons.eot?c29kx6');
+  src:  url('fonts/Erudit-Icons.eot?c29kx6#iefix') format('embedded-opentype'),
+    url('fonts/Erudit-Icons.ttf?c29kx6') format('truetype'),
+    url('fonts/Erudit-Icons.woff?c29kx6') format('woff'),
+    url('fonts/Erudit-Icons.svg?c29kx6#Erudit-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.i-shuffle:before {
+  content: "\e932";
+}
+.i-star-of-life:before {
+  content: "\e933";
+}
 .i-star:before {
   content: "\e931";
 }
