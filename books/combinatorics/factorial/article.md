@@ -296,11 +296,11 @@ $$ 1! = (1-1)! \cdot 1 = 0! \cdot 1 = \ ? $$
 Если их расписывать согласно определениям, то они **полностью совпадают**:
 
 @math
-    n! = \textcolor{\cBrand}{n \cdot(n-1) \cdot \ldots \cdot 1}
+    n! = \blue{n \cdot(n-1) \cdot \ldots \cdot 1}
 
     \\
 
-    n^{\underline{n}} = n\cdot(n-1)\cdot\ldots\cdot\underbrace{(n-(n-1))}_{= 1} = \textcolor{\cBrand}{n\cdot(n-1)\cdot\ldots\cdot 1}
+    n^{\underline{n}} = n\cdot(n-1)\cdot\ldots\cdot\underbrace{(n-(n-1))}_{= 1} = \blue{n\cdot(n-1)\cdot\ldots\cdot 1}
 
     \\[5px]
 

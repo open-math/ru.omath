@@ -12,3 +12,6 @@ keywords:
   - арифметический треугольник
 contributors:
   - CMTV
+advanced: true
+dependencies:
+  - combinatorics/combination

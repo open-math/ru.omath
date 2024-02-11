@@ -233,10 +233,10 @@
                   & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline
                 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
                 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
-                3 & 4 & 5 & 6 & 7 & 8 & \color{\cBrand}{9} \\
-                4 & 5 & 6 & 7 & 8 & \color{\cBrand}{9} & \color{\cBrand}{10} \\
-                5 & 6 & 7 & 8 & \color{\cBrand}{9} & \color{\cBrand}{10} & \color{\cBrand}{11} \\
-                6 & 7 & 8 & \color{\cBrand}{9} & \color{\cBrand}{10} & \color{\cBrand}{11} & \color{\cBrand}{12}
+                3 & 4 & 5 & 6 & 7 & 8 & \blue{9} \\
+                4 & 5 & 6 & 7 & 8 & \blue{9} & \blue{10} \\
+                5 & 6 & 7 & 8 & \blue{9} & \blue{10} & \blue{11} \\
+                6 & 7 & 8 & \blue{9} & \blue{10} & \blue{11} & \blue{12}
             \end{array}
 
         В таком представлении сразу видны все броски, которые в сумме дают не меньше $9$ очков:
@@ -651,16 +651,16 @@
             \def\arraystretch{1.4}
             \begin{array}{c|c|c}
                 \phantom{\blacksquare} &  & \\ \hline
-                 & \color{\cBrand}{\blacksquare} & \\ \hline
-                \color{\cBrand}{\blacksquare} & & \color{\cBrand}{\blacksquare}
+                 & \blue{\blacksquare} & \\ \hline
+                \blue{\blacksquare} & & \blue{\blacksquare}
             \end{array}
 
             \qquad
 
             \begin{array}{c|c|c}
-                \color{\cBrand}{\blacksquare} &  & \\ \hline
-                 & \color{\cBrand}{\blacksquare} &  \\ \hline
-                &  & \color{\cBrand}{\blacksquare}
+                \blue{\blacksquare} &  & \\ \hline
+                 & \blue{\blacksquare} &  \\ \hline
+                &  & \blue{\blacksquare}
             \end{array}
 
         Итак, мы нашли **все** $2$ возможные раскраски квадарата, которые начинаются с центральной клетки.
@@ -729,8 +729,8 @@
             \qquad
 
             \begin{array}{c|c|c}
-                 & \color{\cBrand}{\blacksquare}  &  \\ \hline
-                \color{\cBrand}{\blacksquare} & & \color{\cBrand}{\blacksquare} \\ \hline
+                 & \blue{\blacksquare}  &  \\ \hline
+                \blue{\blacksquare} & & \blue{\blacksquare} \\ \hline
                  & \phantom{\blacksquare} & 
             \end{array}
 
@@ -750,9 +750,9 @@
             \qquad
 
             \begin{array}{c|c|c}
-                 & \color{\cBrand}{\blacksquare} & \\ \hline
-                \color{\cBrand}{\blacksquare} & & \\ \hline
-                 &  & \color{\cBrand}{\blacksquare}
+                 & \blue{\blacksquare} & \\ \hline
+                \blue{\blacksquare} & & \\ \hline
+                 &  & \blue{\blacksquare}
             \end{array}
 
         Наконец, второй и третий варианты, которые являются вертикальными отражениями друг друга.
@@ -772,9 +772,9 @@
             \qquad
 
             \begin{array}{c|c|c}
-                 & & \color{\cBrand}{\blacksquare} \\ \hline
-                \color{\cBrand}{\blacksquare} & \phantom{\blacksquare}  & \\ \hline
-                 &  & \color{\cBrand}{\blacksquare}
+                 & & \blue{\blacksquare} \\ \hline
+                \blue{\blacksquare} & \phantom{\blacksquare}  & \\ \hline
+                 &  & \blue{\blacksquare}
             \end{array}
 
         Итак, мы нашли **все** $3$ возможные раскраски квадарата, которые начинаются с боковой неугловой клетки.
@@ -854,9 +854,9 @@
             \qquad
 
             \begin{array}{c|c|c}
-                \color{\cBrand}{\blacksquare} &  & \color{\cBrand}{\blacksquare} \\ \hline
+                \blue{\blacksquare} &  & \blue{\blacksquare} \\ \hline
                 & \phantom{\blacksquare} & \\ \hline
-                 &  & \color{\cBrand}{\blacksquare}
+                 &  & \blue{\blacksquare}
             \end{array}
 
         Третий вариант сводится к "уголку", "внутреннему треугольнику" или "большому треугольнику".
@@ -1002,7 +1002,7 @@
                 \text{Шаблон 1} & \text{Шаблон 2} & \text{Шаблон 3}
                 \\\hline
                 DA|EC|B & DA|B|EC & B|DA|EC \\
-                DA|CB|E & DA|E|CB & \color{\cBrand}{E|DA|CB} \\
+                DA|CB|E & DA|E|CB & \blue{E|DA|CB} \\
                 AE|CB|D & AE|D|CB & D|AE|CB \\
                 EC|DA|B & EC|B|DA & B|EC|DA \\
                 CB|DA|E & CB|D|AE & E|CB|DA \\

@@ -450,7 +450,7 @@ $$ (a+b)^n = \sum\limits_{k=0}^n \binom{n}{k} a^{n-k}b^k $$
 
             @math
                 \def\arraystretch{1.3}
-                \begin{array}{r|r|r|r|r|r}
+                \begin{array}{r|r|r|r|r}
                     C_n^0 a^n & C_n^1 a^{n-1}b & \ldots & C_n^{n-1}ab^{n-1} & C_n^n b^n
                     \\
                     C_n^n a^n & C_n^{n-1}a^{n-1}b & \ldots & C_n^1 ab^{n-1} & C_n^0 b^n
@@ -508,7 +508,7 @@ $$ (a+b)^n = \sum\limits_{k=0}^n \binom{n}{k} a^{n-k}b^k $$
 
         Подставляем полученные коэффициенты в разложение:
 
-        $$ (a+b)^5 = \\ = \textcolor{\cBrand}{1}a^5 + \textcolor{\cBrand}{5}a^4b + \textcolor{\cBrand}{10}a^3b^2 + \textcolor{\cBrand}{10}a^2b^3 + \textcolor{\cBrand}{5}ab^4 + \textcolor{\cBrand}{1}b^5 $$
+        $$ (a+b)^5 = \\ = \blue{1}a^5 + \blue{5}a^4b + \blue{10}a^3b^2 + \blue{10}a^2b^3 + \blue{5}ab^4 + \blue{1}b^5 $$
 
         Для шестой степени бинома берем последнюю строчку треугольника и дописываем под ней еще одну:
 
@@ -519,7 +519,7 @@ $$ (a+b)^n = \sum\limits_{k=0}^n \binom{n}{k} a^{n-k}b^k $$
 
         Подставляем коэффициенты:
 
-        $$ (a+b)^6 = \\ = \textcolor{\cBrand}{1}a^6 + \textcolor{\cBrand}{6}a^5b + \textcolor{\cBrand}{15}a^4b^2 + \textcolor{\cBrand}{20}a^3b^3 + \textcolor{\cBrand}{15}a^2b^4 + \textcolor{\cBrand}{6}ab^5 + \textcolor{\cBrand}{1}b^6 $$
+        $$ (a+b)^6 = \\ = \blue{1}a^6 + \blue{6}a^5b + \blue{15}a^4b^2 + \blue{20}a^3b^3 + \blue{15}a^2b^4 + \blue{6}ab^5 + \blue{1}b^6 $$
 
 
 ## Применение бинома Ньютона

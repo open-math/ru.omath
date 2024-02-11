@@ -1038,7 +1038,7 @@
 
         @math
             C_n^k + C_n^{k+1} = \frac{n!}{(n-k)! \ k!} + \frac{n!}{(n-k-1)! \ (k+1)!} = \\ =
-            \frac{n! \ \textcolor{\cBrand}{(k+1)}}{(n-k)! \ (k+1)!} + \frac{n! \ \textcolor{\cBrand}{(n-k)}}{(n-k)! \ (k+1)!} = \\ =
+            \frac{n! \ \blue{(k+1)}}{(n-k)! \ (k+1)!} + \frac{n! \ \blue{(n-k)}}{(n-k)! \ (k+1)!} = \\ =
             \frac{n!\left(k+1 + n-k\right)}{(n-k)! \ (k+1)!} = \frac{n! \ (n+1)}{(n-k)! \ (k+1)!} = \\ = \frac{(n+1)!}{(n-k)! \ (k+1) !} = C_{n+1}^{k+1}
 
         $\blacksquare$
