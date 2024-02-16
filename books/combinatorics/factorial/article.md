@@ -227,7 +227,7 @@ $$ 100 \cdot 99 \cdot 98 \cdot 97 \qquad 11 \cdot 9 \cdot 10 \cdot 7 \cdot 8 \qq
         Тогда они сократятся друг с другом и ничего не испортят:
 
         @math
-            n^{\underline{k}} = \frac{ n \cdot \ldots \cdot (n-(k-1)) \textcolor{#bc8d3e}{\cdot (n-k) \cdot (n-k-1) \cdot \ldots \cdot 2 \cdot 1} }{\textcolor{#bc8d3e}{(n-k)\cdot(n-k-1)\cdot \ldots \cdot 2 \cdot 1}}
+            n^{\underline{k}} = \frac{ n \cdot \ldots \cdot (n-(k-1)) \cdot \yellow{(n-k) \cdot (n-k-1) \cdot \ldots \cdot 2 \cdot 1} }{\yellow{(n-k)\cdot(n-k-1)\cdot \ldots \cdot 2 \cdot 1}}
 
         Таким добавлением "лишних" множителей мы добились того, что сверху у нас по [определению](d:factorial) получился факториал числа $n$, записанный в обратном порядке, а снизу факториал $n-k$:
 

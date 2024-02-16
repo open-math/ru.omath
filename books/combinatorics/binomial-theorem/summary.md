@@ -1,5 +1,11 @@
 ^ combinations article|combinatorics/combination|t:combinations
 
+@mermaid
+    graph TD
+        root[Бином Ньютона]:::featured --> formula["$$ (a+b)^n = \sum\limits_{k=0}^n C_n^k a^{n-k}b^k = \sum\limits_{k=0}^n T_k $$"]
+        root --> c["$$ C_n^k = \binom{n}{k} = \frac{n!}{(n-k)! \ k!} $$"]
+        c <-.->|Треугольник Паскаля| pascal["$$ \begin{array}{} 1 \\ 1 \quad 1 \\ 1 \quad 2 \quad 1 \\ 1 \quad 3 \quad 3 \quad 1 \\ 1 \quad 4 \quad 6 \quad 4 \quad 1 \end{array} \\ \cdots $$"]
+
 ## Умножение многочленов
 
 Умножение многочленов можно рассматривать как составление всех комбинаций из одночленов этих самых многочленов.

@@ -1,3 +1,7 @@
+@mermaid
+    graph TD
+        arrangement[Размещение]:::featured -->|Без повторений| awr["$$ A_n^k = \frac{n!}{(n-k)!} $$"]
+        arrangement -->|С повторениями| ar["$$ \bar{A}_n^k = n^k $$"]
 
 ---
 
