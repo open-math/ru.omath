@@ -9,6 +9,11 @@ var OMathContent=(()=>{var p=Object.defineProperty;var v=Object.getOwnPropertyDe
                 color: white;
             }
 
+            .nodeLabel span
+            {
+                color: white;
+            }
+
             rect { 
                 fill: #4672c4;
             }
@@ -21,6 +26,11 @@ var OMathContent=(()=>{var p=Object.defineProperty;var v=Object.getOwnPropertyDe
             {
                 font-size: 18px;
                 font-weight: 600;
+                color: white;
+            }
+
+            .nodeLabel span
+            {
                 color: white;
             }
 
