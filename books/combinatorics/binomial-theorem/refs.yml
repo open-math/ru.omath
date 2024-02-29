@@ -35,3 +35,8 @@ brilliant:
 elementary-algebra:
     -   title:  §4. Полиномиальная теорема
         link:   https://scask.ru/o_book_ela.php?id=30
+
+ege-ok:
+    -   title:  Задачи по комбинаторике. Часть 2
+        desc:   Альтернативное решение про сумму квадратов биномиальных коэффициентов
+        link:   https://ege-ok.ru/2015/08/21/zadachi-po-kombinatorike-chast-2

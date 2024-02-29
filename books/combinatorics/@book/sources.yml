@@ -119,3 +119,15 @@ elementary-algebra:
     title:  Элементарная алгебра
     desc:   Сергей Трофимович Завало, издательство "Просвещение", 1964
     link:   https://scask.ru/o_book_ela.php
+
+dxdy:
+    type:   site
+    title:  Научный форум dxdy
+    desc:   Один из старейших российских научных форумов
+    link:   https://dxdy.ru/
+
+ege-ok:
+    type:   site
+    title:  ЕГЭ? Ок!
+    desc:   Подготовка к ЕГЭ по математике от репетитора Инны Владимировны Фельдман
+    link:   https://ege-ok.ru/

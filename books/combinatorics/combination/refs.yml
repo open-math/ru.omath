@@ -4,6 +4,7 @@ combinatorics-book:
     -   title:  26. Сочетания с повторениями
     -   title:  27. Генуэзская лотерея
     -   title:  28. "Спортлото"
+    -   title:  Финальные задачи к главе II
 
 math-manual:
     -   title:  Примеры и задачи на сочетания
@@ -22,3 +23,10 @@ wiki:
     -   title:  Городки
         desc:   Старинная русская спортивная игра
         link:   https://w.wiki/8zCR
+
+ege-ok:
+    -   title:  Задачи по комбинаторике. Часть 1
+        link:   https://ege-ok.ru/2015/08/20/zadachi-po-kombinatorike
+    
+    -   title:  Задачи по комбинаторике. Часть 2
+        link:   https://ege-ok.ru/2015/08/21/zadachi-po-kombinatorike-chast-2
