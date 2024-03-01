@@ -10,9 +10,19 @@ dermak:
     link: https://dtf.ru/u/534893-dermak
     color: 7fc949
 
+o-kotov:
+    tier: 3
+    name: Олег Котов
+    emoji: 🚀
+
 ###
 ### Tier 2
 ###
+
+k-stepanov:
+    tier: 2
+    name: Константин Степанов
+    emoji: 👍
 
 # sveta:
 #     tier: 2
