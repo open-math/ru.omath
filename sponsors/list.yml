@@ -21,13 +21,21 @@ igor-kochetov:
     emoji: 🤠
     color: CD5C5C
     slogan: Математику уже затем учить надо, что она ум в порядок приводит.
-    messages: [
-        "Математику уже затем учить надо, что она ум в порядок приводит."
-    ]
+    messages:
+        - Математику уже затем учить надо, что она ум в порядок приводит.
 
 ###
 ### Tier 2
 ###
+
+eng_ladno:
+    tier: 2
+    name: Eng_ladno
+    emoji: 🫶🏻
+    link: https://t.me/eng_ladno
+    slogan: An investment in knowledge pays the best interest.
+    messages:
+        - An investment in knowledge pays the best interest.
 
 # sveta:
 #     tier: 2
