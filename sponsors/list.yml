@@ -29,8 +29,9 @@ igor-kochetov:
 ###
 
 eng_ladno:
+    # retired: true
     tier: 2
-    name: Eng_ladno
+    name: English? Ладно
     emoji: 🫶🏻
     link: https://t.me/eng_ladno
     slogan: An investment in knowledge pays the best interest.
@@ -46,6 +47,12 @@ eng_ladno:
 ###
 ### Tier 1
 ###
+
+tgrfz:
+    tier: 1
+    name: tgrfz
+    emoji: 🐯
+    link: https://letterboxd.com/tgrfz/
 
 # egor:
 #     tier: 1
