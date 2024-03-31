@@ -1,9 +1,0 @@
-title: Сумма степеней чисел
-contributors:
-    - CMTV
-
-wip: true
-advanced: true
-dependencies:
-    - combinatorics/combination
-    - combinatorics/binomial-theorem

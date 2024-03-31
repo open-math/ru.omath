@@ -11,3 +11,27 @@ elementary-algebra:
     title:  Элементарная алгебра
     desc:   Сергей Трофимович Завало, издательство "Просвещение", 1964
     link:   https://scask.ru/o_book_ela.php
+
+brilliant:
+    type:   site
+    title:  Brilliant
+    desc:   Образовательная платформа по математике и IT
+    link:   https://brilliant.org/
+    resume: Прекрасный сайт с наглядными пояснениями, хорошими примерами и упражнениями.
+
+mccme:
+    type:   site
+    title:  Московский центр непрерывного математического образования
+    link:   https://mccme.ru/ru/
+
+wiki:
+    type:   site
+    title:  Википедия
+    desc:   Свободная энциклопедия
+    link:   https://www.wikipedia.org/
+
+math-is-fun:
+    type:   site
+    title:  Math is Fun
+    desc:   Обучающие статьи по математике
+    link:   https://www.mathsisfun.com/
