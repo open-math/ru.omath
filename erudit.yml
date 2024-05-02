@@ -30,7 +30,7 @@ books:
         Занимательное:      applications
 
     Экзамены:
-        Общее по эказменам: exam/common
+        Общее по экзаменам: exam/common
         ЕГЭ. База: exam/ege-base
         ЕГЭ. Профиль: exam/ege
         ОГЭ: exam/oge
